@@ -12,6 +12,8 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
 
     * {
         color: white;
@@ -58,6 +60,15 @@
         &-name {
             font-size: 16px;
         }
+        &:last-of-type {
+            justify-content: flex-end;
+            .hero-bottom-col-name {
+                text-align: right;
+            }
+            .hero-bottom-logo-row {
+                gap: 26px;
+            }
+        }
     }
     &-logo {
         &-row {
@@ -66,6 +77,7 @@
             gap: 48px;
             margin-top: 12px;
         }
+        max-height: 53px;
     }
   }
 }
