@@ -2,7 +2,7 @@
     import SupportAvatars from "./../Assets/SupportAvatars.svelte";
 </script>
 
-<section class="wrapper">
+<section class="avatar-sect wrapper">
     <div class="avatar-wrapper">
         <SupportAvatars />
     </div>
@@ -16,13 +16,11 @@
     </div>
 </section>
 
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        list-style: none;
+<style lang="scss">
+    .avatar {
+        &-sect {
+            margin-bottom: 100px;
+        }
     }
     .wrapper {
         display: flex;

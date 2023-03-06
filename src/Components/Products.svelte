@@ -13,7 +13,7 @@
     <div class="product-row">
       <div class="product-item">
         <div class="product-item-img">
-          <img src="%sveltekit.assets%/img/product/m1.svg" alt="" />
+          <img src="./img/product/m1.svg" alt="" />
         </div>
         <div class="product-item-name" />
         <p class="product-item-headline">Say hello to your new streming device</p>
@@ -21,7 +21,7 @@
       </div>
       <div class="product-item">
         <div class="product-item-img">
-          <img src="%sveltekit.assets%/img/product/x1.svg" alt="" />
+          <img src="./img/product/x1.svg" alt="" />
         </div>
         <p class="product-item-headline">A small box for best experience</p>
         <a href="" class="product-item-link">Discover X1</a>
@@ -29,20 +29,20 @@
     </div>
     <div class="app-row">
       <div class="app-col">
-        <img src="%sveltekit.assets%/img/product/app-screen.png" class="app-col-img" alt="" />
+        <img src="./img/product/app-screen.png" class="app-col-img" alt="" />
       </div>
       <div class="app-col">
-        <img src="%sveltekit.assets%/img/product/app-logo.svg" alt="" />
+        <img src="./img/product/app-logo.svg" alt="" />
         <p class="text">
           Using the XBOX app, you can easily renew and manage your subscriptions, and packages, register your device,
           and check your balance.
         </p>
         <div class="app-link-row">
           <a href="" class="app-link">
-            <img src="%sveltekit.assets%/img/icons/app-store.svg" alt="" />
+            <img src="./img/icons/app-store.svg" alt="" />
           </a>
           <a href="" class="app-link">
-            <img src="%sveltekit.assets%/img/icons/google-play.svg" alt="" />
+            <img src="./img/icons/google-play.svg" alt="" />
           </a>
         </div>
       </div>

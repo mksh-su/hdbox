@@ -8,8 +8,8 @@
     %sveltekit.head%
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div style="display: none">%sveltekit.body%</div>
-    <header class="header">
+    <div>%sveltekit.body%</div>
+    <!-- <header class="header">
       <div class="container">
         <a href="" class="logo"><img src="%sveltekit.assets%/img/logo.svg" alt="" /></a>
         <nav class="header-nav">
@@ -192,5 +192,46 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="first">
+          <div class="content">
+            <Logo type="lg-000" />
+            <p class="text">
+              There's nothing better than watching live TV, movies,
+              <br />
+              or sports. With over 280 channels and packages to
+              <br />
+              choose from, the HDBOX has something for
+              <br />
+              everyone
+            </p>
+          </div>
+          <div class="nav">
+            <ul class="links">
+              <h5 class="h5">Navigation</h5>
+              {#each links as item}
+              <CustomBtn text="{item.name}" link="{item.link}" font_size="sm" />
+              {/each}
+            </ul>
+            <ul class="socials">
+              <h5 class="h5">Social</h5>
+              {#each socials as item}
+              <CustomBtn text="{item.name}" link="{item.link}" font_size="sm" />
+              {/each}
+            </ul>
+          </div>
+        </div>
+        <div class="last">
+          <div class="copyright">
+            <p>Copyright © 2010-2022 HDBOX. All rights reserved.</p>
+          </div>
+          <div class="by">
+            <p>Branding & Website by :&nbsp;</p>
+            <CustomBtn text="whitespace" link="https://whitespace.krd/" font_size="xs" />
+          </div>
+        </div>
+      </div>
+    </footer> -->
   </body>
 </html>

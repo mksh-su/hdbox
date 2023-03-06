@@ -3,7 +3,7 @@
 </script>
 
 <section class="hero-sect">
-  <img src="%sveltekit.assets%/img/hero-bg.jpg" class="hero-bg" alt="" />
+  <img src="./img/hero-bg.jpg" class="hero-bg" alt="" />
   <div class="container">
     <div class="hero-bottom">
       <p class="hero-headline">unlock the world of higher definition</p>
@@ -16,15 +16,15 @@
         <div class="hero-bottom-col">
           <span class="hero-bottom-col-name">The new HDBOX satellite</span>
           <div class="hero-bottom-logo-row">
-            <img src="%sveltekit.assets%/img/icons/forevertv-white.svg" class="hero-bottom-logo" alt="" />
-            <img src="%sveltekit.assets%/img/icons/youtube-white.svg" class="hero-bottom-logo" alt="" />
+            <img src="./img/icons/forevertv-white.svg" class="hero-bottom-logo" alt="" />
+            <img src="./img/icons/youtube-white.svg" class="hero-bottom-logo" alt="" />
           </div>
         </div>
         <div class="hero-bottom-col">
           <span class="hero-bottom-col-name">The new HDBOX satellite</span>
           <div class="hero-bottom-logo-row">
-            <img src="%sveltekit.assets%/img/icons/full-hd.svg" class="hero-bottom-logo" alt="" />
-            <img src="%sveltekit.assets%/img/icons/channels-white.png" class="hero-bottom-logo" alt="" />
+            <img src="./img/icons/full-hd.svg" class="hero-bottom-logo" alt="" />
+            <img src="./img/icons/channels-white.png" class="hero-bottom-logo" alt="" />
           </div>
         </div>
       </div>
@@ -33,6 +33,7 @@
 </section>
 
 <style lang="scss">
+  $sequel-font: 'Sequel100Black-86', sans-serif;
   .hero {
     &-bg {
       object-fit: cover;
@@ -70,6 +71,8 @@
       margin: 18px auto;
       text-transform: uppercase;
       text-align: center;
+      font-family: $sequel-font;
+      line-height: 1.1;
     }
 
     &-desc {

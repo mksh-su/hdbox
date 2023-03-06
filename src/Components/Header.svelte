@@ -4,7 +4,10 @@
 
 <header class="header">
   <div class="container">
-    <a href="" class="logo"><Logo type="lg-000" /></a>
+    <a href="" class="logo">
+        <!-- <Logo type="lg-000" /> -->
+        <img src="./img/logo.svg" alt="" />
+    </a>
     <nav class="header-nav">
       <ul class="header-nav-list">
         <li class="header-nav-link"><a href="">Product</a></li>
@@ -47,7 +50,7 @@
         a {
           color: white;
           text-decoration: none;
-          font-size: 12px;
+          font-size: 14px;
         }
       }
     }
