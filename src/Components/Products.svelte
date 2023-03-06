@@ -84,7 +84,7 @@
 
         &:after {
           content: "";
-          background-image: url(../img/icons/arrow.svg);
+          background-image: url("/src/Assets/img/icons/arrow.svg");
           background-position: center;
           background-size: contain;
           width: 10px;
