@@ -25,7 +25,7 @@
       disableOnInteraction: false,
       pauseOnMouseEnter: false,
     }}
-    speed={5000}
+    speed={8000}
   >
     <swiper-slide>
       <img src="./img/poster/aqua.png" class="release-poster" alt="" />
@@ -63,7 +63,7 @@
       pauseOnMouseEnter: false,
       reverseDirection: true,
     }}
-    speed={5000}
+    speed={8000}
   >
     <swiper-slide>
       <img src="./img/poster/aqua.png" class="release-poster" alt="" />
@@ -104,6 +104,9 @@
       swiper-container, .swiper-container, .swiper-wrapper {
         transition-timing-function: linear !important;
         margin: 10px 0;
+      }
+      swiper-slide, .swiper-slide {
+        max-width: 380px;
       }
     }
     &-poster {
