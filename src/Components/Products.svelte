@@ -15,7 +15,7 @@
         <div class="product-item-img">
           <img src="./img/product/m1.svg" alt="" />
         </div>
-        <div class="product-item-name" />
+        <div class="product-item-name"><img src="./img/product/m1-sign.svg" alt="" /></div>
         <p class="product-item-headline">Say hello to your new streming device</p>
         <a href="" class="product-item-link">Discover M1</a>
       </div>
@@ -23,6 +23,7 @@
         <div class="product-item-img">
           <img src="./img/product/x1.svg" alt="" />
         </div>
+        <div class="product-item-name"><img src="./img/product/x1-sign.svg" alt="" /></div>
         <p class="product-item-headline">A small box for best experience</p>
         <a href="" class="product-item-link">Discover X1</a>
       </div>

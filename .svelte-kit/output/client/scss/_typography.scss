@@ -35,6 +35,7 @@ h4 {
   text-align: center;
   text-decoration: none;
   transition: .3s;
+  display: inline-block;
   &-red {
     &-fill {
       background-color: $red-color;

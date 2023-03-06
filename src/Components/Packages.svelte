@@ -11,9 +11,8 @@
     <div class="content">
       <h6 class="h6">Channels & Packages</h6>
       <p class="text">
-        There's nothing better than watching live TV, movies, <br />
-        or sports. With over 280 channels and packages to
-        <br />
+        There's nothing better than watching live TV, movies,  
+        or sports. With over 280 channels and packages to 
         choose from, the HDBOX has something for everyone
       </p>
       <CustomBtn text="Discover Now" link="#" font_size="lg" />
@@ -22,6 +21,8 @@
 </div>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
   .package {
     &-sect {
       margin-bottom: 100px;
@@ -41,13 +42,18 @@
   .wrapper .avatar {
     margin-inline-end: 106px;
   }
-  .wrapper .conent h6 {
+  .wrapper .content h6 {
     font-size: 16px;
     color: #707070;
+    font-family: $text-font;
+    margin-bottom: 0;
   }
-  .wrapper .conent p {
+  .wrapper .content p {
     font-size: 18px;
+    margin: 0;
     padding-top: 12px;
     padding-bottom: 31px;
+    font-weight: 500;
+    font-family: $heading-font;
   }
 </style>

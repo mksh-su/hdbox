@@ -73,6 +73,8 @@
       display: flex;
       gap: 40px;
       margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
 
       a {
         margin-bottom: 10px;

@@ -135,12 +135,14 @@
 
       .feature-item-inner {
         border: 1px solid #dbdbdb;
+        border-right: 0;
         padding: 56px 48px;
         border-radius: 12px;
         border-radius: 12px 0 0 12px;
 
         + .feature-item-inner {
             border-radius: 0 12px 12px 0;
+            border-left: 0;
         }
       }
     }

@@ -12,7 +12,7 @@
             We're available 24/7, so get in touch with us and <br />
             we'll respond as soon as possible.
         </p>
-        <a href="mailto:hello@whitespace.krd"> Say Hello</a>
+        <a href="mailto:hello@whitespace.krd">Say Hello</a>
     </div>
 </section>
 
@@ -51,6 +51,7 @@
         height: 40px;
         line-height: 40px;
         font-size: 16px;
+        text-decoration: none;
     }
 
 </style>

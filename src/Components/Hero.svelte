@@ -44,7 +44,7 @@
     }
 
     &-sect {
-      min-height: 840px;
+      min-height: 860px;
       height: 100vh;
       position: relative;
       overflow: hidden;
