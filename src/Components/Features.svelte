@@ -166,7 +166,7 @@
 
     .ForeverTV {
       grid-area: ForeverTV;
-      background-image: url(./img/other/forever-bg.png);
+      background-image: url("/src/Assets/img/other/forever-bg.png");
       background-size: cover;
       display: flex;
       justify-content: center;
