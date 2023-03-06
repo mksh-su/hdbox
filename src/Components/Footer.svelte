@@ -35,18 +35,18 @@
         </p>
       </div>
       <div class="nav">
-        <ul class="links">
+        <div class="links">
           <h5 class="h5">Navigation</h5>
           {#each links as item}
             <CustomBtn text={item.name} link={item.link} font_size="sm" />
           {/each}
-        </ul>
-        <ul class="socials">
+        </div>
+        <div class="socials">
           <h5 class="h5">Social</h5>
           {#each socials as item}
             <CustomBtn text={item.name} link={item.link} font_size="sm" />
           {/each}
-        </ul>
+        </div>
       </div>
     </div>
     <div class="last">
@@ -71,6 +71,12 @@
     }
     .nav {
       display: flex;
+      gap: 40px;
+      margin-bottom: 10px;
+
+      a {
+        margin-bottom: 10px;
+      }
 
       .h5 {
         font-size: 18px;
@@ -78,8 +84,10 @@
         margin: 0 0 16px;
       }
     }
-    .links .wrapper {
-        margin-bottom: 10px;
+
+    .links {
+      flex-direction: column;
+      gap: 8px;
     }
   }
 
