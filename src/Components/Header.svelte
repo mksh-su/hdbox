@@ -18,7 +18,7 @@
   </div>
 </header>
 
-<style lans="scss">
+<style lang="scss">
   .logo {
     max-height: 24px;
   }

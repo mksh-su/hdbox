@@ -16,10 +16,10 @@
   </div>
 </section>
 
-<style lans="scss">
+<style lang="scss">
   .release {
     &-sect {
-        margin: 120px 0 130px;
+      margin: 120px 0 130px;
     }
   }
 </style>

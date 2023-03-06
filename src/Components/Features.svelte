@@ -82,7 +82,7 @@
   </div>
 </section>
 
-<style lans="scss">
+<style lang="scss">
   .feature {
   &-grid {
     display: grid;

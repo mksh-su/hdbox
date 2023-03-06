@@ -15,7 +15,7 @@
         <div class="product-item-img">
           <img src="%sveltekit.assets%/img/product/m1.svg" alt="" />
         </div>
-        <div class="product-item-name"></div>
+        <div class="product-item-name" />
         <p class="product-item-headline">Say hello to your new streming device</p>
         <a href="" class="product-item-link">Discover M1</a>
       </div>
@@ -34,8 +34,8 @@
       <div class="app-col">
         <img src="%sveltekit.assets%/img/product/app-logo.svg" alt="" />
         <p class="text">
-          Using the XBOX app, you can easily renew and manage your subscriptions, and packages, register your
-          device, and check your balance.
+          Using the XBOX app, you can easily renew and manage your subscriptions, and packages, register your device,
+          and check your balance.
         </p>
         <div class="app-link-row">
           <a href="" class="app-link">
@@ -50,82 +50,82 @@
   </div>
 </section>
 
-<style lans="scss">
+<style lang="scss">
   .product {
-  &-sect {
-    margin: 110px 0 130px;
-  }
-  &-item {
-    background: rgba(233, 233, 233, 0.3);
-    border-radius: 12px;
-    text-align: center;
-    flex-grow: 1;
-    flex-basis: 50%;
-    padding: 40px;
-    &-headline {
+    &-sect {
+      margin: 110px 0 130px;
+    }
+    &-item {
+      background: rgba(233, 233, 233, 0.3);
+      border-radius: 12px;
+      text-align: center;
+      flex-grow: 1;
+      flex-basis: 50%;
+      padding: 40px;
+      &-headline {
         font-size: 24px;
         font-weight: 500;
         margin: 18px auto;
         max-width: 260px;
-    }
-    &-img {
-      height: 320px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 0 60px;
-      img {
-        max-height: 100%;
       }
-    }
-    &-link {
-      color: black;
-      font-size: 18px;
-
-      &:after {
-        content: "";
-        background-image: url(../img/icons/arrow.svg);
-        background-position: center;
-        background-size: contain;
-        width: 10px;
-        height: 10px;
-        display: inline-block;
-        margin-left: 14px;
-      }
-    }
-  }
-  &-row {
-    display: flex;
-    gap: 16px;
-  }
-}
-
-.app {
-    &-row {
+      &-img {
+        height: 320px;
         display: flex;
         align-items: center;
-        border: 1px solid #D9D9D9;
-        border-radius: 12px;
-        margin-top: 16px;
+        justify-content: center;
+        margin: 0 0 60px;
+        img {
+          max-height: 100%;
+        }
+      }
+      &-link {
+        color: black;
+        font-size: 18px;
+
+        &:after {
+          content: "";
+          background-image: url(../img/icons/arrow.svg);
+          background-position: center;
+          background-size: contain;
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          margin-left: 14px;
+        }
+      }
+    }
+    &-row {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  .app {
+    &-row {
+      display: flex;
+      align-items: center;
+      border: 1px solid #d9d9d9;
+      border-radius: 12px;
+      margin-top: 16px;
     }
     &-col {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-basis: 50%;
 
-        .text {
-            margin: 18px 0;
-            font-weight: 500;
-        }
+      .text {
+        margin: 18px 0;
+        font-weight: 500;
+      }
     }
     &-link {
-        text-decoration: none;
-        &-row {
-            display: flex;
-            gap: 16px;
-            margin-top: 20px;
-        }
+      text-decoration: none;
+      &-row {
+        display: flex;
+        gap: 16px;
+        margin-top: 20px;
+      }
     }
-}
+  }
 </style>

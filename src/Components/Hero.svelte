@@ -32,7 +32,7 @@
   </div>
 </section>
 
-<style lans="scss">
+<style lang="scss">
   .hero {
     &-bg {
       object-fit: cover;
