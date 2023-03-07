@@ -5,19 +5,21 @@ const SupportAvatars = create_ssr_component(($$result, $$props, $$bindings, slot
 });
 const Header_svelte_svelte_type_style_lang = "";
 const css$a = {
-  code: ".logo.svelte-tr403s.svelte-tr403s{max-height:24px}.header.svelte-tr403s.svelte-tr403s{position:absolute;width:100%;z-index:999;top:40px}.header.svelte-tr403s .container.svelte-tr403s{display:flex;justify-content:space-between}.header-nav-list.svelte-tr403s.svelte-tr403s{display:flex;padding:0;margin:0;list-style:none;display:flex}.header-nav-link.svelte-tr403s.svelte-tr403s{margin-left:34px}.header-nav-link.svelte-tr403s a.svelte-tr403s{color:white;text-decoration:none;font-size:14px}",
+  code: '.logo.svelte-1snb6aq.svelte-1snb6aq{max-height:24px}.header.svelte-1snb6aq.svelte-1snb6aq{position:absolute;width:100%;z-index:999;top:40px}.header.svelte-1snb6aq .container.svelte-1snb6aq{display:flex;align-items:center}.header-nav.svelte-1snb6aq.svelte-1snb6aq{margin-left:auto;margin-right:24px;padding-right:24px;border-right:1px solid rgba(255, 255, 255, 0.14)}.header-nav-list.svelte-1snb6aq.svelte-1snb6aq{display:flex;padding:0;margin:0;list-style:none;display:flex}.header-nav-link.svelte-1snb6aq.svelte-1snb6aq{margin-left:34px}.header-nav-link.svelte-1snb6aq a.svelte-1snb6aq{color:white;text-decoration:none;font-size:14px}.select.svelte-1snb6aq.svelte-1snb6aq{position:relative;padding:12px 34px 12px 16px;border:1px solid rgba(255, 255, 255, 0.14);border-radius:6px;min-width:108px}.select.svelte-1snb6aq .select-btn.svelte-1snb6aq{box-sizing:border-box;border-radius:3px;width:100%;cursor:pointer;position:relative;user-select:none;color:white;font-size:13px;font-family:"Rational Display", sans-serif;font-weight:300}.select.svelte-1snb6aq .select-btn.svelte-1snb6aq:after{content:"";position:absolute;top:40%;right:-15px;width:6px;height:6px;transform:translateY(-50%) rotate(45deg);border-right:1px solid white;border-bottom:1px solid white;transition:0.3s}.select.svelte-1snb6aq .select-dropdown.svelte-1snb6aq{position:absolute;top:100%;min-width:110px;right:0;border-radius:0 0 3px 3px;overflow:hidden;border-top:1px solid #eee;z-index:1;background:#fff;transform:scale(1, 0);transform-origin:top center;visibility:hidden;transition:0.3s;box-shadow:0px 0px 16px rgba(0, 0, 0, 0.08);border-radius:8px}.select.svelte-1snb6aq .select-dropdown .select-option.svelte-1snb6aq{padding:10px;box-sizing:border-box;cursor:pointer;color:white;position:relative}.select.svelte-1snb6aq .select-dropdown .select-option.svelte-1snb6aq:hover{background:#f8f8f8}',
   map: null
 };
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$a);
-  return `<header class="${"header svelte-tr403s"}"><div class="${"container svelte-tr403s"}"><a href="${""}" class="${"logo svelte-tr403s"}">
-        <img src="${"./img/logo.svg"}" alt="${""}"></a>
-    <nav class="${"header-nav"}"><ul class="${"header-nav-list svelte-tr403s"}"><li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">Product</a></li>
-        <li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">Broadcasting</a></li>
-        <li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">Channels &amp; Packages</a></li>
-        <li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">Reseller</a></li>
-        <li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">About us</a></li>
-        <li class="${"header-nav-link svelte-tr403s"}"><a href="${""}" class="${"svelte-tr403s"}">Contact</a></li></ul></nav></div>
+  return `<header class="${"header svelte-1snb6aq"}"><div class="${"container svelte-1snb6aq"}"><a href="${""}" class="${"logo svelte-1snb6aq"}">
+      <img src="${"./img/logo.svg"}" alt="${""}"></a>
+    <nav class="${"header-nav svelte-1snb6aq"}"><ul class="${"header-nav-list svelte-1snb6aq"}"><li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">Product</a></li>
+        <li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">Broadcasting</a></li>
+        <li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">Channels &amp; Packages</a></li>
+        <li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">Reseller</a></li>
+        <li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">About us</a></li>
+        <li class="${"header-nav-link svelte-1snb6aq"}"><a href="${""}" class="${"svelte-1snb6aq"}">Contact</a></li></ul></nav>
+    <div class="${"header-select"}"><div class="${"select svelte-1snb6aq"}"><div class="${"select-btn svelte-1snb6aq"}" data-type="${"English"}">English</div>
+        <div class="${"select-dropdown svelte-1snb6aq"}"><div class="${"select-option svelte-1snb6aq"}" data-type="${"Kurdish"}">Kurdish</div></div></div></div></div>
 </header>`;
 });
 const Hero_svelte_svelte_type_style_lang = "";
