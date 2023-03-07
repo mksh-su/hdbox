@@ -83,153 +83,152 @@
 </section>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   .feature {
-  &-grid {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr 0fr;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Left TVLG H265"
-      "Perks TVLG WIFI"
-      "Perks VODPVR TimeShift"
-      "YT HDMIUSB ForeverTV";
-
-    .Left {
-      grid-area: Left;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-      img {
-        margin: 20px auto;
-      }
-
-      .feature-item-text {
-        margin-top: auto;
-      }
-    }
-
-    .WIFI {
-      grid-area: WIFI;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .TimeShift {
-      grid-area: TimeShift;
-      display: flex;
-    }
-
-    .VODPVR {
+    &-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
+      gap: 16px;
+      grid-template-columns: 1fr 2fr 1.2fr;
+      grid-template-rows: 1fr 0.5fr 0.5fr 0fr;
       grid-auto-flow: row;
-      grid-template-areas: ". .";
-      grid-area: VODPVR;
-      border: 0;
-      padding: 0;
+      grid-template-areas:
+        "Left TVLG H265"
+        "Perks TVLG WIFI"
+        "Perks VODPVR TimeShift"
+        "YT HDMIUSB ForeverTV";
 
-      .feature-item-inner {
-        border: 1px solid #dbdbdb;
-        border-right: 0;
-        padding: 56px 48px;
-        border-radius: 12px;
-        border-radius: 12px 0 0 12px;
+      .Left {
+        grid-area: Left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        + .feature-item-inner {
-            border-radius: 0 12px 12px 0;
-            border-left: 0;
+        img {
+          margin: 20px auto;
+          padding-right: 30px;
+        }
+
+        .feature-item-text {
+          margin-top: auto;
+        }
+      }
+
+      .WIFI {
+        grid-area: WIFI;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .TimeShift {
+        grid-area: TimeShift;
+        display: flex;
+      }
+
+      .VODPVR {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-flow: row;
+        grid-template-areas: ". .";
+        grid-area: VODPVR;
+        border: 0;
+        padding: 0;
+        gap: 16px;
+
+        .feature-item-inner {
+          border: 1px solid #dbdbdb;
+          padding: 56px 48px;
+          border-radius: 12px;
+        }
+      }
+
+      .Perks {
+        grid-area: Perks;
+      }
+
+      .YT {
+        grid-area: YT;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .HDMIUSB {
+        grid-area: HDMIUSB;
+        display: flex;
+        gap: 44px;
+        justify-content: center;
+        padding: 55px;
+      }
+
+      .ForeverTV {
+        grid-area: ForeverTV;
+        background-image: url("/src/Assets/img/other/forever-bg.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .H265 {
+        grid-area: H265;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          margin: 20px auto;
+        }
+
+        .feature-item-text {
+          margin-top: auto;
+        }
+      }
+
+      .TVLG {
+        grid-area: TVLG;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 25px 25px 30px;
+
+        img {
+          width: 100%;
+          box-shadow: 10px 10px 25px 5px rgb(0 0 0 / 20%);
+        }
+
+        .feature-item-text {
+          margin-top: auto;
+          font-size: 22px;
         }
       }
     }
-
-    .Perks {
-      grid-area: Perks;
-    }
-
-    .YT {
-      grid-area: YT;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .HDMIUSB {
-      grid-area: HDMIUSB;
-      display: flex;
-      gap: 44px;
-      justify-content: center;
-      padding: 55px;
-    }
-
-    .ForeverTV {
-      grid-area: ForeverTV;
-      background-image: url("/src/Assets/img/other/forever-bg.png");
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .H265 {
-      grid-area: H265;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-      img {
-        margin: 20px auto;
+    &-item {
+      border: 1px solid #dbdbdb;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      &-text {
+        margin: 0;
       }
-
-      .feature-item-text {
-        margin-top: auto;
-      }
-    }
-
-    .TVLG {
-      grid-area: TVLG;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 25px 25px 25px 30px;
-
-      img {
-        width: 100%;
-        box-shadow: 10px 10px 25px 5px rgb(0 0 0 / 20%);
-      }
-
-      .feature-item-text {
-        margin-top: auto;
-        font-size: 22px;
+      &-small {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin: 14px 0;
+        &-icon {
+          min-width: 18px;
+          margin-right: 18px;
+        }
+        &-name {
+          text-transform: uppercase;
+          font-size: 10px;
+        }
       }
     }
   }
-  &-item {
-    border: 1px solid #dbdbdb;
-    border-radius: 12px;
-    padding: 30px;
-    text-align: center;
-    &-text {
-      margin: 0;
-    }
-    &-small {
-      display: flex;
-      align-items: center;
-      text-align: left;
-      margin: 14px 0;
-      &-icon {
-        min-width: 18px;
-        margin-right: 18px;
-      }
-      &-name {
-        text-transform: uppercase;
-        font-size: 10px;
-      }
-    }
-  }
-}
 </style>

@@ -70,6 +70,10 @@
 </section>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   * {
     box-sizing: border-box;
     margin: 0;

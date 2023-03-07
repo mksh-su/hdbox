@@ -52,6 +52,10 @@
 </section>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   .product {
     &-sect {
       margin: 110px 0 130px;
@@ -118,6 +122,11 @@
       .text {
         margin: 18px 0;
         font-weight: 500;
+        font-family: $heading-font;
+      }
+
+      &:last-of-type {
+        padding-right: 120px;
       }
     }
     &-link {

@@ -29,7 +29,6 @@
       reverseDirection: true,
     }}
     speed={120000}
-
     dir="rtl"
   >
     <swiper-slide>
@@ -153,6 +152,10 @@
 </section>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   .release {
     &-sect {
       margin: 120px 0 130px;
@@ -164,7 +167,7 @@
         -webkit-transition-timing-function: linear !important;
         -o-transition-timing-function: linear !important;
         transition-timing-function: linear !important;
-        margin: 10px 0;
+        margin: 10px 0 0;
       }
       swiper-slide,
       .swiper-slide {
@@ -178,6 +181,6 @@
     }
   }
   .btn-container {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 </style>

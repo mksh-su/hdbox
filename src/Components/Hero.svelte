@@ -33,7 +33,10 @@
 </section>
 
 <style lang="scss">
-  $sequel-font: 'Sequel100Black-86', sans-serif;
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   .hero {
     &-bg {
       object-fit: cover;

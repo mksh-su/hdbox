@@ -1,24 +1,26 @@
 <script>
   import Logo from "../Assets/Logo.svelte";
-
-  //   const select = document.querySelectorAll(".select-btn");
-  //   const option = document.querySelectorAll(".select-option");
-  //   let index = 1;
-  //   select.forEach((a) => {
-  //     a.addEventListener("click", (b) => {
-  //       const next = b.target.nextElementSibling;
-  //       next.classList.toggle("toggle");
-  //       next.style.zIndex = index++;
-  //     });
-  //   });
-  //   option.forEach((a) => {
-  //     a.addEventListener("click", (b) => {
-  //       b.target.parentElement.classList.remove("toggle");
-  //       const parent = b.target.closest(".select").children[0];
-  //       parent.setAttribute("data-type", b.target.getAttribute("data-type"));
-  //       parent.innerText = b.target.getAttribute("data-type");
-  //     });
-  //   });
+  import { onMount } from "svelte";
+  onMount(() => {
+    const select = document.querySelectorAll(".select-btn");
+    const option = document.querySelectorAll(".select-option");
+    let index = 1;
+    select.forEach((a) => {
+      a.addEventListener("click", (b) => {
+        const next = b.target.nextElementSibling;
+        next.classList.toggle("toggle");
+        next.style.zIndex = index++;
+      });
+    });
+    option.forEach((a) => {
+      a.addEventListener("click", (b) => {
+        b.target.parentElement.classList.remove("toggle");
+        const parent = b.target.closest(".select").children[0];
+        parent.setAttribute("data-type", b.target.getAttribute("data-type"));
+        parent.innerText = b.target.getAttribute("data-type");
+      });
+    });
+  });
 </script>
 
 <header class="header">
@@ -41,6 +43,7 @@
       <div class="select">
         <div class="select-btn" data-type="English">English</div>
         <div class="select-dropdown">
+          <div class="select-option" data-type="English">English</div>
           <div class="select-option" data-type="Kurdish">Kurdish</div>
         </div>
       </div>
