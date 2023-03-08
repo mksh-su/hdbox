@@ -3,9 +3,9 @@
 </script>
 
 <div class="wrapper">
-{#if type == "lg-000"}
-
-{:else if type == "lg-red"}
-
+{#if type == "lg-black"}
+    <img src="./img/logo-black.svg" alt="" />
+{:else if type == "lg-white"}
+    <img src="./img/logo.svg" alt="" />
 {/if}
 </div>

@@ -22,8 +22,8 @@
   <div class="container">
     <div class="first">
       <div class="content">
-        <!-- <Logo type="lg-000" /> -->
-        <img src="./img/logo-black.svg" alt="" />
+        <Logo type="lg-black" />
+        <!-- <img src="./img/logo-black.svg" alt="" /> -->
         <p class="text">
           There's nothing better than watching live TV, movies,
           <br />

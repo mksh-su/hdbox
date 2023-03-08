@@ -21,13 +21,19 @@
       });
     });
   });
+
+  export let position = "";
 </script>
 
-<header class="header">
+<header class="header {position}">
   <div class="container">
-    <a href="" class="logo">
-      <!-- <Logo type="lg-000" /> -->
-      <img src="./img/logo.svg" alt="" />
+    <a href="./" class="logo">
+      {#if position == "static"}
+      <Logo type="lg-black" />
+      {:else}
+      <Logo type="lg-white" />
+      {/if}
+      <!-- <img src="./img/logo.svg" alt="" /> -->
     </a>
     <nav class="header-nav">
       <ul class="header-nav-list">
@@ -89,6 +95,13 @@
           font-size: 14px;
         }
       }
+    }
+
+    &.static {
+      position: static;
+      padding: 14px 0;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #DCDCD2;
     }
   }
 
