@@ -1,5 +1,6 @@
 <script>
   // import Logo from "../Assets/Logo.svelte";
+  import CustomBtn from "./CustomBtn.svelte";
 </script>
 
 <section class="product-sect">
@@ -17,7 +18,7 @@
         </div>
         <div class="product-item-name"><img src="./img/product/m1-sign.svg" alt="" /></div>
         <p class="product-item-headline">Say hello to your new streming device</p>
-        <a href="" class="product-item-link">Discover M1</a>
+        <CustomBtn text="Discover M1" link="#" font_size="lg" />
       </div>
       <div class="product-item">
         <div class="product-item-img">
@@ -25,7 +26,7 @@
         </div>
         <div class="product-item-name"><img src="./img/product/x1-sign.svg" alt="" /></div>
         <p class="product-item-headline">A small box for best experience</p>
-        <a href="" class="product-item-link">Discover X1</a>
+        <CustomBtn text="Discover X1" link="#" font_size="lg" />
       </div>
     </div>
     <div class="app-row">

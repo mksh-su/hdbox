@@ -39,22 +39,22 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 13px 109px 13px 64px;
-  }
-  .wrapper .avatar {
-    margin-inline-end: 106px;
-  }
-  .wrapper .content h6 {
-    font-size: 16px;
-    color: #707070;
-    font-family: $text-font;
-    margin-bottom: 0;
-  }
-  .wrapper .content p {
-    font-size: 18px;
-    margin: 0;
-    padding-top: 12px;
-    padding-bottom: 31px;
-    font-weight: 500;
-    font-family: $heading-font;
+    .avatar {
+      margin-inline-end: 106px;
+    }
+    .content h6 {
+      font-size: 16px;
+      color: #707070;
+      font-family: $text-font;
+      margin-bottom: 0;
+    }
+    .content p {
+      font-size: 18px;
+      margin: 0;
+      padding-top: 12px;
+      padding-bottom: 31px;
+      font-weight: 500;
+      font-family: $heading-font;
+    }
   }
 </style>

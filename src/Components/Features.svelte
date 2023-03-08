@@ -16,7 +16,9 @@
         <p class="text feature-item-text">The best shows, movies, sports and live TV.</p>
       </div>
       <div class="feature-item TVLG">
-        <img src="./img/other/avatar.jpg" alt="" />
+        <div class="feature-item-tv">
+          <img src="./img/other/avatar.jpg" alt="" />
+        </div>
         <p class="text feature-item-text">Unlock the world of Higher Definition</p>
       </div>
       <div class="feature-item H265">
@@ -91,7 +93,7 @@
     &-grid {
       display: grid;
       gap: 16px;
-      grid-template-columns: 1fr 2fr 1.2fr;
+      grid-template-columns: 1fr 2fr 1.4fr;
       grid-template-rows: 1fr 0.5fr 0.5fr 0fr;
       grid-auto-flow: row;
       grid-template-areas:
@@ -105,6 +107,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 28px 20px;
 
         img {
           margin: 20px auto;
@@ -121,11 +124,21 @@
         display: flex;
         align-items: center;
         gap: 10px;
+        padding-right: 10px;
+
+        .feature-item-text {
+          font-size: 22px;
+        }
       }
 
       .TimeShift {
         grid-area: TimeShift;
         display: flex;
+
+        img {
+          max-width: 210px;
+          margin: auto;
+        }
       }
 
       .VODPVR {
@@ -194,26 +207,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 25px 25px 25px 30px;
+        padding: 20px 20px 28px 20px;
 
-        img {
-          width: 100%;
+        .feature-item-tv {
+          border: 4px solid black;
           box-shadow: 10px 10px 25px 5px rgb(0 0 0 / 20%);
+          display: flex;
+          width: 100%;
         }
 
         .feature-item-text {
           margin-top: auto;
           font-size: 22px;
         }
+
+        img {
+          width: 100%;
+        }
       }
     }
     &-item {
       border: 1px solid #dbdbdb;
       border-radius: 12px;
-      padding: 30px;
+      padding: 28px;
       text-align: center;
       &-text {
         margin: 0;
+        font-family: $heading-font;
       }
       &-small {
         display: flex;

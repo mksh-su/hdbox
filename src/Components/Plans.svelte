@@ -61,7 +61,7 @@
             <li>{perk}</li>
           {/each}
         </ul>
-        <footer>
+        <footer class="plan-btn">
           <a href="/contact-us">Contact Us</a>
         </footer>
       </div>
@@ -142,36 +142,50 @@
     color: #fff;
     border-radius: 24px;
     font-size: 32px;
-    font-weight: "Meduim";
+    font-weight: 500;
+    h3 {
+      font-weight: 500;
+    }
   }
 
   .plan h4 {
     margin-top: 32px;
     margin-bottom: 42px;
     font-size: 24px;
+    font-weight: 500;
   }
   .perks {
-    font-size: 24px;
-    color: #323232;
+    li {
+      list-style: inside;
+      font-size: 18px;
+      font-family: $heading-font;
+      font-weight: 400;
+      color: #323232;
+    }
   }
-  .perks li {
-    list-style: inside;
-  }
-
-  footer {
-    margin-top: 46px;
-    border-radius: 24px;
-    background: #eaeaea;
-    width: 100%;
-    text-align: center;
-    height: 68px;
-    line-height: 68px;
-  }
-  footer a {
-    color: #000;
-    font-size: 20px;
-  }
-  footer a:hover {
-    color: #e81d2c;
+  .plan {
+    h3 {
+      font-size: 32px;
+    }
+    footer {
+      width: 100%;
+      a {
+        color: #000;
+        font-size: 20px;
+        margin-top: 46px;
+        border-radius: 24px;
+        background-color: #eaeaea;
+        width: 100%;
+        text-align: center;
+        height: 68px;
+        line-height: 68px;
+        transition: 0.3s;
+        display: block;
+        &:hover {
+          background-color: $red-color;
+          color: white;
+        }
+      }
+    }
   }
 </style>

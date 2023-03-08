@@ -62,12 +62,20 @@
 </footer>
 
 <style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
   .footer {
     padding: 60px 0 40px;
     .first {
       display: flex;
       justify-content: space-between;
       margin-bottom: 20px;
+
+      .text {
+        font-family: $heading-font;
+      }
     }
     .nav {
       display: flex;
@@ -83,11 +91,13 @@
       .h5 {
         font-size: 18px;
         font-weight: 500;
-        margin: 0 0 16px;
+        margin: 0 0 10px;
+        font-family: $heading-font;
       }
     }
 
-    .links {
+    .links, .socials {
+      display: flex;
       flex-direction: column;
       gap: 8px;
     }
@@ -111,6 +121,7 @@
     p {
       margin: 0;
       font-size: 14px;
+      font-family: $heading-font;
     }
   }
   .last .by {

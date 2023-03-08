@@ -1,42 +1,41 @@
 <script>
-    import { prop_dev } from "svelte/internal";
-    import TrArrow from "../Assets/TRArrow.svelte";
+  import { prop_dev } from "svelte/internal";
+  import TrArrow from "../Assets/TRArrow.svelte";
 
-    export let text = "";
-    export let link = "";
-    export let font_size = "lg";
+  export let text = "";
+  export let link = "";
+  export let font_size = "lg";
 </script>
 
-<div class="wrapper">
-    <a class={font_size} href={link}>{text}</a>
-    <TrArrow />
+<div class="btn-link">
+  <a class={font_size} href={link}>{text}</a>
+  <TrArrow />
 </div>
 
-<style>
-        * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        list-style: none;
+<style lang="scss">
+  $heading-font: "Rational Display", sans-serif;
+  $text-font: "TT Commons", sans-serif;
+  $sequel-font: "Sequel100Black-86", sans-serif;
+  $red-color: #e81d2c;
+  .btn-link {
+    a {
+      text-decoration: underline;
+      margin-inline-end: 4px;
+      color: #000;
+      transition: 0.3s;
+      &:hover {
+        color: $red-color;
+      }
     }
-    .wrapper {
-        display: flex;
-        align-items: center;
+    .lg {
+      font-size: 18px;
     }
-    .wrapper a {
-        text-decoration: underline;
-        margin-inline-end: 12px;
-        color: #000;
+    .sm {
+      font-size: 16px;
     }
-    .wrapper .lg {
-        font-size: 18px;
+    .xs {
+      font-size: 14px;
+      margin-inline-end: 8px;
     }
-    .wrapper .sm {
-        font-size: 16px;
-    }
-    .wrapper .xs {
-        font-size: 14px;
-        margin-inline-end: 8px;
-    }
+  }
 </style>
