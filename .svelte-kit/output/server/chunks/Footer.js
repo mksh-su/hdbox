@@ -53,7 +53,7 @@ const CustomBtn = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {
-  code: '.footer.svelte-s0wh8n.svelte-s0wh8n{padding:60px 0 40px}.footer.svelte-s0wh8n .first.svelte-s0wh8n{display:flex;justify-content:space-between;margin-bottom:20px}.footer.svelte-s0wh8n .first .text.svelte-s0wh8n{font-family:"Rational Display", sans-serif}.footer.svelte-s0wh8n .nav.svelte-s0wh8n{display:flex;gap:40px;margin-bottom:10px;margin-left:auto;margin-right:auto}.footer.svelte-s0wh8n .nav .h5.svelte-s0wh8n{font-size:18px;font-weight:500;margin:0 0 10px;font-family:"Rational Display", sans-serif}.footer.svelte-s0wh8n .links.svelte-s0wh8n,.footer.svelte-s0wh8n .socials.svelte-s0wh8n{display:flex;flex-direction:column;gap:8px}.copyright.svelte-s0wh8n p.svelte-s0wh8n{margin:0;font-size:14px}.last.svelte-s0wh8n.svelte-s0wh8n{border:1px solid rgba(0, 0, 0, 0.1);font-size:14px;padding:16px;display:flex;justify-content:space-between;border-radius:6px}.last.svelte-s0wh8n p.svelte-s0wh8n{margin:0;font-size:14px;font-family:"Rational Display", sans-serif}.last.svelte-s0wh8n .by.svelte-s0wh8n{display:flex}',
+  code: '.footer.svelte-gqvenz.svelte-gqvenz{padding:60px 0 40px;border-top:1px solid #DBDBDB}.footer.svelte-gqvenz .first.svelte-gqvenz{display:flex;justify-content:space-between;margin-bottom:20px}.footer.svelte-gqvenz .first .text.svelte-gqvenz{font-family:"Rational Display", sans-serif}.footer.svelte-gqvenz .nav.svelte-gqvenz{display:flex;gap:40px;margin-bottom:10px;margin-left:auto;margin-right:auto}.footer.svelte-gqvenz .nav .h5.svelte-gqvenz{font-size:18px;font-weight:500;margin:0 0 10px;font-family:"Rational Display", sans-serif}.footer.svelte-gqvenz .links.svelte-gqvenz,.footer.svelte-gqvenz .socials.svelte-gqvenz{display:flex;flex-direction:column;gap:8px}.copyright.svelte-gqvenz p.svelte-gqvenz{margin:0;font-size:14px}.last.svelte-gqvenz.svelte-gqvenz{border:1px solid rgba(0, 0, 0, 0.1);font-size:14px;padding:16px;display:flex;justify-content:space-between;border-radius:6px}.last.svelte-gqvenz p.svelte-gqvenz{margin:0;font-size:14px;font-family:"Rational Display", sans-serif}.last.svelte-gqvenz .by.svelte-gqvenz{display:flex}',
   map: null
 };
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -73,9 +73,9 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     { name: "YouTube", link: "/#4" }
   ];
   $$result.css.add(css);
-  return `<footer class="${"footer svelte-s0wh8n"}"><div class="${"container"}"><div class="${"first svelte-s0wh8n"}"><div class="${"content"}">${validate_component(Logo, "Logo").$$render($$result, { type: "lg-black" }, {}, {})}
+  return `<footer class="${"footer svelte-gqvenz"}"><div class="${"container"}"><div class="${"first svelte-gqvenz"}"><div class="${"content"}">${validate_component(Logo, "Logo").$$render($$result, { type: "lg-black" }, {}, {})}
         
-        <p class="${"text svelte-s0wh8n"}">There&#39;s nothing better than watching live TV, movies,
+        <p class="${"text svelte-gqvenz"}">There&#39;s nothing better than watching live TV, movies,
           <br>
           or sports. With over 280 channels and packages to
           <br>
@@ -83,7 +83,7 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           <br>
           everyone
         </p></div>
-      <div class="${"nav svelte-s0wh8n"}"><div class="${"links svelte-s0wh8n"}"><h5 class="${"h5 svelte-s0wh8n"}">Navigation</h5>
+      <div class="${"nav svelte-gqvenz"}"><div class="${"links svelte-gqvenz"}"><h5 class="${"h5 svelte-gqvenz"}">Navigation</h5>
           ${each(links, (item) => {
     return `${validate_component(CustomBtn, "CustomBtn").$$render(
       $$result,
@@ -96,7 +96,7 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       {}
     )}`;
   })}</div>
-        <div class="${"socials svelte-s0wh8n"}"><h5 class="${"h5 svelte-s0wh8n"}">Social</h5>
+        <div class="${"socials svelte-gqvenz"}"><h5 class="${"h5 svelte-gqvenz"}">Social</h5>
           ${each(socials, (item) => {
     return `${validate_component(CustomBtn, "CustomBtn").$$render(
       $$result,
@@ -109,8 +109,8 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       {}
     )}`;
   })}</div></div></div>
-    <div class="${"last svelte-s0wh8n"}"><div class="${"copyright svelte-s0wh8n"}"><p class="${"svelte-s0wh8n"}">Copyright © 2010-2022 HDBOX. All rights reserved.</p></div>
-      <div class="${"by svelte-s0wh8n"}"><p class="${"svelte-s0wh8n"}">Branding &amp; Website by : </p>
+    <div class="${"last svelte-gqvenz"}"><div class="${"copyright svelte-gqvenz"}"><p class="${"svelte-gqvenz"}">Copyright © 2010-2022 HDBOX. All rights reserved.</p></div>
+      <div class="${"by svelte-gqvenz"}"><p class="${"svelte-gqvenz"}">Branding &amp; Website by : </p>
         ${validate_component(CustomBtn, "CustomBtn").$$render(
     $$result,
     {
