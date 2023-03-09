@@ -68,6 +68,7 @@
   $red-color: #e81d2c;
   .footer {
     padding: 60px 0 40px;
+    border-top: 1px solid #DBDBDB;
     .first {
       display: flex;
       justify-content: space-between;

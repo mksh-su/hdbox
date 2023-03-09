@@ -19,7 +19,6 @@
 <Plans />
 <Support />
 <Packages />
-<div class="divider" />
 <Footer />
 
 <style>

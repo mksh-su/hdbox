@@ -2,19 +2,16 @@
   import CustomBtn from "./CustomBtn.svelte";
 </script>
 
-<div class="container">
-  <section class="intro-sect wrapper">
-    <div class="content">
-      <h6 class="h6">Reseller</h6>
-      <p class="text">
-        There's nothing better than watching live TV, movies, or sports. With over 280 channels and packages to choose
-        from, the HDBOX has something for everyone.
-      </p>
+<div class="breadcrumbs">
+  <div class="container">
+    <div class="breadcrumbs-row">
+      <a href="" class="breadcrumbs-item">HOME</a>
+      /
+      <a href="" class="breadcrumbs-item">How to use</a>
+      /
+      <span class="breadcrumbs-item">Remote Control Unit (RU)</span>
     </div>
-    <div class="img">
-      <img src="./img/reseller/reseller-intro.svg" alt="" />
-    </div>
-  </section>
+  </div>
 </div>
 
 <style lang="scss">
@@ -22,42 +19,21 @@
   $text-font: "TT Commons", sans-serif;
   $sequel-font: "Sequel100Black-86", sans-serif;
   $red-color: #e81d2c;
-  .intro {
-    &-sect {
-      margin-bottom: 50px;
-      display: flex;
-      align-items: center;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      border-radius: 12px;
-      padding: 13px 120px 13px 98px;
-      .content h6 {
-        font-size: 16px;
-        color: #707070;
-        font-family: $text-font;
-        margin-bottom: 0;
-      }
-      .content p {
-        font-size: 18px;
-        margin: 0;
-        padding-top: 12px;
-        padding-bottom: 31px;
-        font-weight: 500;
-        font-family: $heading-font;
-      }
-      .h6 {
-        margin-top: 0;
-        font-weight: 400;
-      }
-      .img {
-        margin-left: auto;
-        img {
-          min-height: 300px;
-          max-width: unset;
-        }
-      }
-      .text {
-        max-width: 340px;
-      }
+  .breadcrumbs {
+    &-row {
+      font-family: $heading-font;
+      font-size: 14px;
+      font-weight: 300;
+      padding: 14px 0;
+      border-bottom: 1px solid #dcdcd2;
+    }
+    a.breadcrumbs-item {
+      color: #a6a6a6;
+      text-decoration: none;
+    }
+    span.breadcrumbs-item {
+      color: #484848;
+      font-weight: 400;
     }
   }
 </style>
