@@ -29,9 +29,9 @@
   <div class="container">
     <a href="./" class="logo">
       {#if position == "static"}
-      <Logo type="lg-black" />
+        <Logo type="lg-black" />
       {:else}
-      <Logo type="lg-white" />
+        <Logo type="lg-white" />
       {/if}
       <!-- <img src="./img/logo.svg" alt="" /> -->
     </a>
@@ -93,6 +93,7 @@
           color: white;
           text-decoration: none;
           font-size: 14px;
+          font-family: $heading-font;
         }
       }
     }
@@ -101,7 +102,26 @@
       position: static;
       padding: 14px 0;
       margin-bottom: 24px;
-      border-bottom: 1px solid #DCDCD2;
+      border-bottom: 1px solid #dcdcd2;
+
+      a {
+        color: #0f0f0f;
+      }
+
+      .header-nav {
+        border-right: 1px solid #dbdbdb;
+      }
+
+      .select {
+        border: 1px solid #dbdbdb;
+        &-btn {
+          color: #0f0f0f;
+          &:after {
+            border-right: 1px solid #DBDBDB;
+            border-bottom: 1px solid #DBDBDB;
+          }
+        }
+      }
     }
   }
 
