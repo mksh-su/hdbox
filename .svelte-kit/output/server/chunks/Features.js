@@ -9,35 +9,35 @@ const Features = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   return `<section class="${"feature-sect svelte-u6ydss"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">Delivering extraordinary experiences in a small package</h2>
       <p class="${"text"}">Mediastar devices use high quality display resolutions to provide users with a luxurious experience.
       </p></div>
-    <div class="${"feature-grid svelte-u6ydss"}"><div class="${"feature-item Left svelte-u6ydss"}"><img src="${"./img/icons/channels-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
+    <div class="${"feature-grid svelte-u6ydss"}"><div class="${"feature-item Left svelte-u6ydss"}"><img src="${"/img/icons/channels-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
         <p class="${"text feature-item-text svelte-u6ydss"}">The best shows, movies, sports and live TV.</p></div>
-      <div class="${"feature-item TVLG svelte-u6ydss"}"><div class="${"feature-item-tv svelte-u6ydss"}"><img src="${"./img/other/avatar.jpg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
+      <div class="${"feature-item TVLG svelte-u6ydss"}"><div class="${"feature-item-tv svelte-u6ydss"}"><img src="${"/img/other/avatar.jpg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
         <p class="${"text feature-item-text svelte-u6ydss"}">Unlock the world of Higher Definition</p></div>
-      <div class="${"feature-item H265 svelte-u6ydss"}"><img src="${"./img/icons/full-hd-red.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
+      <div class="${"feature-item H265 svelte-u6ydss"}"><img src="${"/img/icons/full-hd-red.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
         <p class="${"text feature-item-text svelte-u6ydss"}">High-Efficiency Video Coding support and FHD resolution</p></div>
-      <div class="${"feature-item Perks svelte-u6ydss"}"><div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-audio.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+      <div class="${"feature-item Perks svelte-u6ydss"}"><div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-audio.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Multi-language audio</span></div>
-        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-search.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-search.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Blind search supported</span></div>
-        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-satellite.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-satellite.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Multi satellite search. Network search</span></div>
-        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-update.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-update.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Software and addition/ data upgrade through USB</span></div>
-        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-ratio.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-ratio.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Variable aspect ratio (4:3.169) with Pan &amp; scan vector or letter box option
           </span></div>
-        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"./img/icons/feature-storing.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
+        <div class="${"feature-item-small svelte-u6ydss"}"><img src="${"/img/icons/feature-storing.svg"}" class="${"feature-item-small-icon svelte-u6ydss"}" alt="${""}">
           <span class="${"feature-item-small-name svelte-u6ydss"}">Storing memory: more than 100 satellite, 4000 transponders and 8000 channels
           </span></div></div>
-      <div class="${"feature-item VODPVR svelte-u6ydss"}"><div class="${"feature-item-inner svelte-u6ydss"}"><img src="${"./img/icons/vod.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
-        <div class="${"feature-item-inner svelte-u6ydss"}"><img src="${"./img/icons/pvr.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div></div>
-      <div class="${"feature-item WIFI svelte-u6ydss"}"><img src="${"./img/icons/wi-fi.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
+      <div class="${"feature-item VODPVR svelte-u6ydss"}"><div class="${"feature-item-inner svelte-u6ydss"}"><img src="${"/img/icons/vod.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
+        <div class="${"feature-item-inner svelte-u6ydss"}"><img src="${"/img/icons/pvr.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div></div>
+      <div class="${"feature-item WIFI svelte-u6ydss"}"><img src="${"/img/icons/wi-fi.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
         <p class="${"text feature-item-text svelte-u6ydss"}">Internal Wi-Fi Support</p></div>
-      <div class="${"feature-item TimeShift svelte-u6ydss"}"><img src="${"./img/icons/timeshift.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
-      <div class="${"feature-item YT svelte-u6ydss"}"><img src="${"./img/icons/youtube-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
-      <div class="${"feature-item HDMIUSB svelte-u6ydss"}"><img src="${"./img/icons/hdmi-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
-        <img src="${"./img/icons/usb.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
-      <div class="${"feature-item ForeverTV svelte-u6ydss"}"><img src="${"./img/icons/forevertv-white-big.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div></div></div>
+      <div class="${"feature-item TimeShift svelte-u6ydss"}"><img src="${"/img/icons/timeshift.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
+      <div class="${"feature-item YT svelte-u6ydss"}"><img src="${"/img/icons/youtube-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
+      <div class="${"feature-item HDMIUSB svelte-u6ydss"}"><img src="${"/img/icons/hdmi-black.svg"}" alt="${""}" class="${"svelte-u6ydss"}">
+        <img src="${"/img/icons/usb.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div>
+      <div class="${"feature-item ForeverTV svelte-u6ydss"}"><img src="${"/img/icons/forevertv-white-big.svg"}" alt="${""}" class="${"svelte-u6ydss"}"></div></div></div>
 </section>`;
 });
 export {

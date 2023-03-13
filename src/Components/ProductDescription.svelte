@@ -7,18 +7,18 @@
     <div class="desc-row desc-row-grey">
       <div class="desc-col">
         <div class="desc-item-img">
-          <img src="./img/product/x1.svg" alt="" />
+          <img src="/img/product/x1.svg" alt="" />
         </div>
       </div>
       <div class="desc-col">
-        <div class="desc-item-name"><img src="./img/product/x1-sign.svg" alt="" /></div>
+        <div class="desc-item-name"><img src="/img/product/x1-sign.svg" alt="" /></div>
         <p class="text">A small box for best experience</p>
       </div>
     </div>
     <div class="desc-row desc-row-border">
       <div class="desc-col">
         <div class="desc-item-img">
-          <img src="./img/product/remote.png" alt="" />
+          <img src="/img/product/remote.png" alt="" />
         </div>
       </div>
       <div class="desc-col">
@@ -29,7 +29,7 @@
     <div class="desc-row desc-row-big">
       <div class="desc-col">
         <div class="desc-item-img">
-          <img src="./img/product/tv.png" alt="" />
+          <img src="/img/product/tv.png" alt="" />
         </div>
       </div>
       <div class="desc-col">
@@ -43,13 +43,13 @@
     <div class="desc-column">
       <h2 class="h2">A small box filled with new experiences.</h2>
       <div class="desc-tv-img">
-        <img src="./img/product/avatar-big.jpg" alt="" />
+        <img src="/img/product/avatar-big.jpg" alt="" />
       </div>
     </div>
     <div class="desc-row desc-row-big desc-row-reverse">
       <div class="desc-col">
         <div class="desc-item-img">
-          <img src="./img/product/rock.png" alt="" />
+          <img src="/img/product/rock.png" alt="" />
         </div>
       </div>
       <div class="desc-col">

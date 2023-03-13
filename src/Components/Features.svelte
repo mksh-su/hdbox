@@ -12,44 +12,44 @@
     </div>
     <div class="feature-grid">
       <div class="feature-item Left">
-        <img src="./img/icons/channels-black.svg" alt="" />
+        <img src="/img/icons/channels-black.svg" alt="" />
         <p class="text feature-item-text">The best shows, movies, sports and live TV.</p>
       </div>
       <div class="feature-item TVLG">
         <div class="feature-item-tv">
-          <img src="./img/other/avatar.jpg" alt="" />
+          <img src="/img/other/avatar.jpg" alt="" />
         </div>
         <p class="text feature-item-text">Unlock the world of Higher Definition</p>
       </div>
       <div class="feature-item H265">
-        <img src="./img/icons/full-hd-red.svg" alt="" />
+        <img src="/img/icons/full-hd-red.svg" alt="" />
         <p class="text feature-item-text">High-Efficiency Video Coding support and FHD resolution</p>
       </div>
       <div class="feature-item Perks">
         <div class="feature-item-small">
-          <img src="./img/icons/feature-audio.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-audio.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">Multi-language audio</span>
         </div>
         <div class="feature-item-small">
-          <img src="./img/icons/feature-search.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-search.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">Blind search supported</span>
         </div>
         <div class="feature-item-small">
-          <img src="./img/icons/feature-satellite.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-satellite.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">Multi satellite search. Network search</span>
         </div>
         <div class="feature-item-small">
-          <img src="./img/icons/feature-update.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-update.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">Software and addition/ data upgrade through USB</span>
         </div>
         <div class="feature-item-small">
-          <img src="./img/icons/feature-ratio.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-ratio.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">
             Variable aspect ratio (4:3.169) with Pan & scan vector or letter box option
           </span>
         </div>
         <div class="feature-item-small">
-          <img src="./img/icons/feature-storing.svg" class="feature-item-small-icon" alt="" />
+          <img src="/img/icons/feature-storing.svg" class="feature-item-small-icon" alt="" />
           <span class="feature-item-small-name">
             Storing memory: more than 100 satellite, 4000 transponders and 8000 channels
           </span>
@@ -57,28 +57,28 @@
       </div>
       <div class="feature-item VODPVR">
         <div class="feature-item-inner">
-          <img src="./img/icons/vod.svg" alt="" />
+          <img src="/img/icons/vod.svg" alt="" />
         </div>
         <div class="feature-item-inner">
-          <img src="./img/icons/pvr.svg" alt="" />
+          <img src="/img/icons/pvr.svg" alt="" />
         </div>
       </div>
       <div class="feature-item WIFI">
-        <img src="./img/icons/wi-fi.svg" alt="" />
+        <img src="/img/icons/wi-fi.svg" alt="" />
         <p class="text feature-item-text">Internal Wi-Fi Support</p>
       </div>
       <div class="feature-item TimeShift">
-        <img src="./img/icons/timeshift.svg" alt="" />
+        <img src="/img/icons/timeshift.svg" alt="" />
       </div>
       <div class="feature-item YT">
-        <img src="./img/icons/youtube-black.svg" alt="" />
+        <img src="/img/icons/youtube-black.svg" alt="" />
       </div>
       <div class="feature-item HDMIUSB">
-        <img src="./img/icons/hdmi-black.svg" alt="" />
-        <img src="./img/icons/usb.svg" alt="" />
+        <img src="/img/icons/hdmi-black.svg" alt="" />
+        <img src="/img/icons/usb.svg" alt="" />
       </div>
       <div class="feature-item ForeverTV">
-        <img src="./img/icons/forevertv-white-big.svg" alt="" />
+        <img src="/img/icons/forevertv-white-big.svg" alt="" />
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@ const Logo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { type = "lg-bck" } = $$props;
   if ($$props.type === void 0 && $$bindings.type && type !== void 0)
     $$bindings.type(type);
-  return `<div class="${"wrapper"}">${type == "lg-black" ? `<img src="${"./img/logo-black.svg"}" alt="${""}">` : `${type == "lg-white" ? `<img src="${"./img/logo.svg"}" alt="${""}">` : ``}`}</div>`;
+  return `<div class="${"wrapper"}">${type == "lg-black" ? `<img src="${"/img/logo-black.svg"}" alt="${""}">` : `${type == "lg-white" ? `<img src="${"/img/logo.svg"}" alt="${""}">` : ``}`}</div>`;
 });
 const Header_svelte_svelte_type_style_lang = "";
 const css$2 = {

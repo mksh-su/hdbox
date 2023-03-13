@@ -45,6 +45,7 @@
   $red-color: #e81d2c;
   .reseller {
     &-sect {
+      margin-top: 30px;
       margin-bottom: 100px;
 
       .h3 {

@@ -1,5 +1,6 @@
 <script>
   import CustomBtn from "./CustomBtn.svelte";
+  import Search from "./Search.svelte";
 </script>
 
 <div class="container">
@@ -11,10 +12,7 @@
         for?
       </p>
       <a href="/" class="intro-link">Contact Us</a>
-      <form action="" class="form-search">
-        <input type="text" placeholder="Search" class="form-search-input" />
-        <input type="submit" class="form-search-btn" value="Search" />
-      </form>
+      <Search />
     </div>
     <div class="img">
       <img src="./img/help/help-intro.svg" alt="" />
@@ -54,38 +52,10 @@
           font-size: 18px;
           font-weight: 500;
           font-family: $heading-font;
-          transition: .3s;
+          transition: 0.3s;
           &:hover {
             color: $red-color;
           }
-        }
-      }
-      .form-search {
-        margin-top: 32px;
-        position: relative;
-        max-width: 280px;
-        &-input {
-          padding: 10px 18px;
-          border: 1px solid #DBDBDB;
-          border-radius: 12px;
-          width: 100%;
-        }
-        &-btn {
-          font-size: 0;
-          padding: 0;
-          width: 14px;
-          height: 14px;
-          display: inline-block;
-          position: absolute;
-          right: 16px;
-          top: 50%;
-          transform: translateY(-50%);
-          background-color: transparent;
-          background-image: url(/img/help/search.svg);
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center;
-          border: 0;
         }
       }
       .h6 {

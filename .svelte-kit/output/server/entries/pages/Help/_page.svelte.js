@@ -1,20 +1,20 @@
-import { c as create_ssr_component, f as each, d as add_attribute, e as escape, v as validate_component } from "../../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component, f as each, d as add_attribute, e as escape } from "../../../chunks/index.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
+import { S as Search } from "../../../chunks/Search.js";
 const HelpIntro_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: '.intro-sect.svelte-sfvtml.svelte-sfvtml{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-sfvtml .content h6.svelte-sfvtml{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-sfvtml .content p.svelte-sfvtml{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-sfvtml .content .intro-link.svelte-sfvtml{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s}.intro-sect.svelte-sfvtml .content .intro-link.svelte-sfvtml:hover{color:#e81d2c}.intro-sect.svelte-sfvtml .form-search.svelte-sfvtml{margin-top:32px;position:relative;max-width:280px}.intro-sect.svelte-sfvtml .form-search-input.svelte-sfvtml{padding:10px 18px;border:1px solid #DBDBDB;border-radius:12px;width:100%}.intro-sect.svelte-sfvtml .form-search-btn.svelte-sfvtml{font-size:0;padding:0;width:14px;height:14px;display:inline-block;position:absolute;right:16px;top:50%;transform:translateY(-50%);background-color:transparent;background-image:url(/img/help/search.svg);background-size:contain;background-repeat:no-repeat;background-position:center;border:0}.intro-sect.svelte-sfvtml .h6.svelte-sfvtml{margin-top:0;font-weight:400}.intro-sect.svelte-sfvtml .img.svelte-sfvtml{margin-left:auto}.intro-sect.svelte-sfvtml .img img.svelte-sfvtml{min-height:300px;max-width:unset}.intro-sect.svelte-sfvtml .text.svelte-sfvtml{max-width:340px}',
+  code: '.intro-sect.svelte-182tepz.svelte-182tepz{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-182tepz .content h6.svelte-182tepz{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-182tepz .content p.svelte-182tepz{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-182tepz .content .intro-link.svelte-182tepz{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s}.intro-sect.svelte-182tepz .content .intro-link.svelte-182tepz:hover{color:#e81d2c}.intro-sect.svelte-182tepz .h6.svelte-182tepz{margin-top:0;font-weight:400}.intro-sect.svelte-182tepz .img.svelte-182tepz{margin-left:auto}.intro-sect.svelte-182tepz .img img.svelte-182tepz{min-height:300px;max-width:unset}.intro-sect.svelte-182tepz .text.svelte-182tepz{max-width:340px}',
   map: null
 };
 const HelpIntro = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-sfvtml"}"><div class="${"content"}"><h6 class="${"h6 svelte-sfvtml"}">Help Center</h6>
-      <p class="${"text svelte-sfvtml"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
+  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-182tepz"}"><div class="${"content"}"><h6 class="${"h6 svelte-182tepz"}">Help Center</h6>
+      <p class="${"text svelte-182tepz"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
         for?
       </p>
-      <a href="${"/"}" class="${"intro-link svelte-sfvtml"}">Contact Us</a>
-      <form action="${""}" class="${"form-search svelte-sfvtml"}"><input type="${"text"}" placeholder="${"Search"}" class="${"form-search-input svelte-sfvtml"}">
-        <input type="${"submit"}" class="${"form-search-btn svelte-sfvtml"}" value="${"Search"}"></form></div>
-    <div class="${"img svelte-sfvtml"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-sfvtml"}"></div></section>
+      <a href="${"/"}" class="${"intro-link svelte-182tepz"}">Contact Us</a>
+      ${validate_component(Search, "Search").$$render($$result, {}, {}, {})}</div>
+    <div class="${"img svelte-182tepz"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-182tepz"}"></div></section>
 </div>`;
 });
 const Help_svelte_svelte_type_style_lang = "";
