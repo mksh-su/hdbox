@@ -16,29 +16,29 @@ const AboutIntro = create_ssr_component(($$result, $$props, $$bindings, slots) =
 });
 const AboutMain_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: '.main-bottom.svelte-1qvaxvl.svelte-1qvaxvl.svelte-1qvaxvl{display:flex;gap:16px;margin-bottom:16px}.main-bottom.svelte-1qvaxvl .main-item.svelte-1qvaxvl.svelte-1qvaxvl{flex-basis:50%}.main-bottom.svelte-1qvaxvl .main-item.svelte-1qvaxvl.svelte-1qvaxvl:first-of-type{background-color:#e81d2c}.main-bottom.svelte-1qvaxvl .main-item:first-of-type .h2.svelte-1qvaxvl.svelte-1qvaxvl,.main-bottom.svelte-1qvaxvl .main-item.svelte-1qvaxvl:first-of-type .text.svelte-1qvaxvl{color:white}.main-bottom.svelte-1qvaxvl .main-item.svelte-1qvaxvl.svelte-1qvaxvl:last-of-type{background-color:#dcdcd2}.main-item.svelte-1qvaxvl.svelte-1qvaxvl.svelte-1qvaxvl{padding:36px 46px;border-radius:12px}.main-item.svelte-1qvaxvl .h2.svelte-1qvaxvl.svelte-1qvaxvl{margin-top:0;margin-bottom:26px;line-height:1.2;min-height:115px}.main-item.svelte-1qvaxvl .text.svelte-1qvaxvl.svelte-1qvaxvl{padding:0 110px 60px 0;font-family:"Rational Display", sans-serif}.main-top.svelte-1qvaxvl.svelte-1qvaxvl.svelte-1qvaxvl{background-image:url(../../img/about/tv.jpg);background-size:cover;background-position:center;border-radius:12px;margin-bottom:16px;position:relative;overflow:hidden}.main-top.svelte-1qvaxvl.svelte-1qvaxvl.svelte-1qvaxvl:before{content:"";height:100%;width:60%;display:inline-block;position:absolute;background:linear-gradient(90deg, #221714 0%, #221714 45.83%, rgba(34, 23, 20, 0) 100%)}.main-top.svelte-1qvaxvl .h3.svelte-1qvaxvl.svelte-1qvaxvl,.main-top.svelte-1qvaxvl .text.svelte-1qvaxvl.svelte-1qvaxvl{color:white;position:relative;z-index:1}.main-top.svelte-1qvaxvl .h3.svelte-1qvaxvl.svelte-1qvaxvl{font-size:24px;font-weight:500;margin:0 0 14px}.main-top.svelte-1qvaxvl .main-item.svelte-1qvaxvl.svelte-1qvaxvl{padding:85px 95px}.main-top.svelte-1qvaxvl .main-item.svelte-1qvaxvl .text.svelte-1qvaxvl{max-width:330px;padding:0}',
+  code: '.main-bottom.svelte-chjqya.svelte-chjqya.svelte-chjqya{display:flex;gap:16px;margin-bottom:16px}.main-bottom.svelte-chjqya .main-item.svelte-chjqya.svelte-chjqya{flex-basis:50%}.main-bottom.svelte-chjqya .main-item.svelte-chjqya.svelte-chjqya:first-of-type{background-color:#e81d2c}.main-bottom.svelte-chjqya .main-item:first-of-type .h2.svelte-chjqya.svelte-chjqya,.main-bottom.svelte-chjqya .main-item.svelte-chjqya:first-of-type .text.svelte-chjqya{color:white}.main-bottom.svelte-chjqya .main-item.svelte-chjqya.svelte-chjqya:last-of-type{background-color:#dcdcd2}.main-item.svelte-chjqya.svelte-chjqya.svelte-chjqya{padding:36px 46px;border-radius:12px}.main-item.svelte-chjqya .h2.svelte-chjqya.svelte-chjqya{margin-top:0;margin-bottom:26px;line-height:1.2;min-height:115px}.main-item.svelte-chjqya .text.svelte-chjqya.svelte-chjqya{padding:0 110px 60px 0;font-family:"Rational Display", sans-serif}.main-top.svelte-chjqya.svelte-chjqya.svelte-chjqya{background-image:url(/img/about/tv.jpg);background-size:cover;background-position:center;border-radius:12px;margin-bottom:16px;position:relative;overflow:hidden}.main-top.svelte-chjqya.svelte-chjqya.svelte-chjqya:before{content:"";height:100%;width:60%;display:inline-block;position:absolute;background:linear-gradient(90deg, #221714 0%, #221714 45.83%, rgba(34, 23, 20, 0) 100%)}.main-top.svelte-chjqya .h3.svelte-chjqya.svelte-chjqya,.main-top.svelte-chjqya .text.svelte-chjqya.svelte-chjqya{color:white;position:relative;z-index:1}.main-top.svelte-chjqya .h3.svelte-chjqya.svelte-chjqya{font-size:24px;font-weight:500;margin:0 0 14px}.main-top.svelte-chjqya .main-item.svelte-chjqya.svelte-chjqya{padding:85px 95px}.main-top.svelte-chjqya .main-item.svelte-chjqya .text.svelte-chjqya{max-width:330px;padding:0}',
   map: null
 };
 const AboutMain = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<div class="${"main-sect"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">Delivering extraordinary experiences in a small package</h2>
+  return `<section class="${"main-sect"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">Delivering extraordinary experiences in a small package</h2>
       <p class="${"text"}">Mediastar devices use high quality display resolutions to provide users with a luxurious experience.
       </p></div>
 
-    <div class="${"main-top svelte-1qvaxvl"}"><div class="${"main-item svelte-1qvaxvl"}"><h3 class="${"h3 svelte-1qvaxvl"}">HDBOX</h3>
-        <p class="${"text svelte-1qvaxvl"}">There&#39;s nothing better than watching live TV, movies, or sports. With over 280 channels and packages to choose
+    <div class="${"main-top svelte-chjqya"}"><div class="${"main-item svelte-chjqya"}"><h3 class="${"h3 svelte-chjqya"}">HDBOX</h3>
+        <p class="${"text svelte-chjqya"}">There&#39;s nothing better than watching live TV, movies, or sports. With over 280 channels and packages to choose
           from, the HDBOX has something for everyone.
         </p></div></div>
-    <div class="${"main-bottom svelte-1qvaxvl"}"><div class="${"main-item svelte-1qvaxvl"}"><h2 class="${"h2 svelte-1qvaxvl"}">Our mission &amp; approach</h2>
-        <p class="${"text svelte-1qvaxvl"}">We want to maximize your comfort, make your daily life more effortless and introduce you to the latest
+    <div class="${"main-bottom svelte-chjqya"}"><div class="${"main-item svelte-chjqya"}"><h2 class="${"h2 svelte-chjqya"}">Our mission &amp; approach</h2>
+        <p class="${"text svelte-chjqya"}">We want to maximize your comfort, make your daily life more effortless and introduce you to the latest
           technologies. Mediastar builds long-lasting, strong devices that are built to endure all kinds of harsh and
           unstable conditions.
         </p></div>
-      <div class="${"main-item svelte-1qvaxvl"}"><h2 class="${"h2 svelte-1qvaxvl"}">Our Values</h2>
-        <p class="${"text svelte-1qvaxvl"}">We always make sure our customers are satisfied with our products. Mediastar offers high quality products with
+      <div class="${"main-item svelte-chjqya"}"><h2 class="${"h2 svelte-chjqya"}">Our Values</h2>
+        <p class="${"text svelte-chjqya"}">We always make sure our customers are satisfied with our products. Mediastar offers high quality products with
           reasonable prices because we care about your comfort and happiness.
         </p></div></div></div>
-</div>`;
+</section>`;
 });
 const AboutForm_svelte_svelte_type_style_lang = "";
 const css = {

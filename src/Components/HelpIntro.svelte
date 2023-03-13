@@ -81,7 +81,7 @@
           top: 50%;
           transform: translateY(-50%);
           background-color: transparent;
-          background-image: url(../../img/help/search.svg);
+          background-image: url(/img/help/search.svg);
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;

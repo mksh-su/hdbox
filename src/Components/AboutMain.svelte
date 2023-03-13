@@ -2,7 +2,7 @@
   import CustomBtn from "./CustomBtn.svelte";
 </script>
 
-<div class="main-sect">
+<section class="main-sect">
   <div class="container">
     <div class="section-desc">
       <h2 class="h2">Delivering extraordinary experiences in a small package</h2>
@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <style lang="scss">
   $heading-font: "Rational Display", sans-serif;
@@ -82,7 +82,7 @@
       }
     }
     &-top {
-      background-image: url(../../img/about/tv.jpg);
+      background-image: url(/img/about/tv.jpg);
       background-size: cover;
       background-position: center;
       border-radius: 12px;

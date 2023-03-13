@@ -2,24 +2,24 @@ import { c as create_ssr_component, f as each, d as add_attribute, e as escape, 
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 const HelpIntro_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: '.intro-sect.svelte-e18g8k.svelte-e18g8k{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-e18g8k .content h6.svelte-e18g8k{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-e18g8k .content p.svelte-e18g8k{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-e18g8k .content .intro-link.svelte-e18g8k{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s}.intro-sect.svelte-e18g8k .content .intro-link.svelte-e18g8k:hover{color:#e81d2c}.intro-sect.svelte-e18g8k .form-search.svelte-e18g8k{margin-top:32px;position:relative;max-width:280px}.intro-sect.svelte-e18g8k .form-search-input.svelte-e18g8k{padding:10px 18px;border:1px solid #DBDBDB;border-radius:12px;width:100%}.intro-sect.svelte-e18g8k .form-search-btn.svelte-e18g8k{font-size:0;padding:0;width:14px;height:14px;display:inline-block;position:absolute;right:16px;top:50%;transform:translateY(-50%);background-color:transparent;background-image:url(../../img/help/search.svg);background-size:contain;background-repeat:no-repeat;background-position:center;border:0}.intro-sect.svelte-e18g8k .h6.svelte-e18g8k{margin-top:0;font-weight:400}.intro-sect.svelte-e18g8k .img.svelte-e18g8k{margin-left:auto}.intro-sect.svelte-e18g8k .img img.svelte-e18g8k{min-height:300px;max-width:unset}.intro-sect.svelte-e18g8k .text.svelte-e18g8k{max-width:340px}',
+  code: '.intro-sect.svelte-sfvtml.svelte-sfvtml{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-sfvtml .content h6.svelte-sfvtml{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-sfvtml .content p.svelte-sfvtml{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-sfvtml .content .intro-link.svelte-sfvtml{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s}.intro-sect.svelte-sfvtml .content .intro-link.svelte-sfvtml:hover{color:#e81d2c}.intro-sect.svelte-sfvtml .form-search.svelte-sfvtml{margin-top:32px;position:relative;max-width:280px}.intro-sect.svelte-sfvtml .form-search-input.svelte-sfvtml{padding:10px 18px;border:1px solid #DBDBDB;border-radius:12px;width:100%}.intro-sect.svelte-sfvtml .form-search-btn.svelte-sfvtml{font-size:0;padding:0;width:14px;height:14px;display:inline-block;position:absolute;right:16px;top:50%;transform:translateY(-50%);background-color:transparent;background-image:url(/img/help/search.svg);background-size:contain;background-repeat:no-repeat;background-position:center;border:0}.intro-sect.svelte-sfvtml .h6.svelte-sfvtml{margin-top:0;font-weight:400}.intro-sect.svelte-sfvtml .img.svelte-sfvtml{margin-left:auto}.intro-sect.svelte-sfvtml .img img.svelte-sfvtml{min-height:300px;max-width:unset}.intro-sect.svelte-sfvtml .text.svelte-sfvtml{max-width:340px}',
   map: null
 };
 const HelpIntro = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-e18g8k"}"><div class="${"content"}"><h6 class="${"h6 svelte-e18g8k"}">Help Center</h6>
-      <p class="${"text svelte-e18g8k"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
+  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-sfvtml"}"><div class="${"content"}"><h6 class="${"h6 svelte-sfvtml"}">Help Center</h6>
+      <p class="${"text svelte-sfvtml"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
         for?
       </p>
-      <a href="${"/"}" class="${"intro-link svelte-e18g8k"}">Contact Us</a>
-      <form action="${""}" class="${"form-search svelte-e18g8k"}"><input type="${"text"}" placeholder="${"Search"}" class="${"form-search-input svelte-e18g8k"}">
-        <input type="${"submit"}" class="${"form-search-btn svelte-e18g8k"}" value="${"Search"}"></form></div>
-    <div class="${"img svelte-e18g8k"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-e18g8k"}"></div></section>
+      <a href="${"/"}" class="${"intro-link svelte-sfvtml"}">Contact Us</a>
+      <form action="${""}" class="${"form-search svelte-sfvtml"}"><input type="${"text"}" placeholder="${"Search"}" class="${"form-search-input svelte-sfvtml"}">
+        <input type="${"submit"}" class="${"form-search-btn svelte-sfvtml"}" value="${"Search"}"></form></div>
+    <div class="${"img svelte-sfvtml"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-sfvtml"}"></div></section>
 </div>`;
 });
 const Help_svelte_svelte_type_style_lang = "";
 const css = {
-  code: '.help-sect.svelte-1gw3vkk.svelte-1gw3vkk{margin-bottom:100px}.help-sect.svelte-1gw3vkk .h3.svelte-1gw3vkk{font-weight:500;font-size:24px}.help-grid.svelte-1gw3vkk.svelte-1gw3vkk{display:grid;grid-template-columns:repeat(4, 1fr);gap:16px;margin-bottom:130px}.help-item.svelte-1gw3vkk.svelte-1gw3vkk{display:flex;flex-direction:column}.help-item-img.svelte-1gw3vkk.svelte-1gw3vkk{border-radius:12px 12px 0px 0px;position:relative;overflow:hidden;min-height:160px}.help-item-img.svelte-1gw3vkk img.svelte-1gw3vkk{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);min-height:100%}.help-item-name.svelte-1gw3vkk.svelte-1gw3vkk{font-size:16px;font-family:"Rational Display", sans-serif;font-weight:500;margin:0;padding-bottom:30px;position:relative;text-decoration:none;color:#484848}.help-item-bottom.svelte-1gw3vkk.svelte-1gw3vkk{border:1px solid #dbdbdb;border-radius:0 0 12px 12px;padding:24px 22px 22px;flex-grow:1;display:flex;flex-direction:column;align-items:baseline}.help-item-link.svelte-1gw3vkk.svelte-1gw3vkk{margin-top:auto;font-weight:400;color:#1B1717;text-decoration:none;position:relative;padding-right:12px;font-size:12px}.help-item-link.svelte-1gw3vkk.svelte-1gw3vkk:after{content:"";position:absolute;display:inline-block;right:0;top:50%;transform:translateY(-50%);height:7px;width:4px;background-image:url(../../img/help/arrow-right.svg);background-repeat:no-repeat;background-size:contain;background-position:center}',
+  code: '.help-sect.svelte-n58mh1.svelte-n58mh1{margin-bottom:100px}.help-sect.svelte-n58mh1 .h3.svelte-n58mh1{font-weight:500;font-size:24px}.help-grid.svelte-n58mh1.svelte-n58mh1{display:grid;grid-template-columns:repeat(4, 1fr);gap:16px;margin-bottom:130px}.help-item.svelte-n58mh1.svelte-n58mh1{display:flex;flex-direction:column}.help-item-img.svelte-n58mh1.svelte-n58mh1{border-radius:12px 12px 0px 0px;position:relative;overflow:hidden;min-height:160px}.help-item-img.svelte-n58mh1 img.svelte-n58mh1{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);min-height:100%}.help-item-name.svelte-n58mh1.svelte-n58mh1{font-size:16px;font-family:"Rational Display", sans-serif;font-weight:500;margin:0;padding-bottom:30px;position:relative;text-decoration:none;color:#484848}.help-item-bottom.svelte-n58mh1.svelte-n58mh1{border:1px solid #dbdbdb;border-radius:0 0 12px 12px;padding:24px 22px 22px;flex-grow:1;display:flex;flex-direction:column;align-items:baseline}.help-item-link.svelte-n58mh1.svelte-n58mh1{margin-top:auto;font-weight:400;color:#1B1717;text-decoration:none;position:relative;padding-right:12px;font-size:12px}.help-item-link.svelte-n58mh1.svelte-n58mh1:after{content:"";position:absolute;display:inline-block;right:0;top:50%;transform:translateY(-50%);height:7px;width:4px;background-image:url(/img/help/arrow-right.svg);background-repeat:no-repeat;background-size:contain;background-position:center}',
   map: null
 };
 const Help = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -62,11 +62,11 @@ const Help = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   ];
   $$result.css.add(css);
-  return `<section class="${"help-sect svelte-1gw3vkk"}"><div class="${"container"}"><h3 class="${"h3 svelte-1gw3vkk"}">Help Center</h3>
-    <div class="${"help-grid svelte-1gw3vkk"}">${each(help, (item) => {
-    return `<div class="${"help-item svelte-1gw3vkk"}"><div class="${"help-item-img svelte-1gw3vkk"}"><img${add_attribute("src", item.img, 0)} alt="${""}" class="${"svelte-1gw3vkk"}"></div>
-          <div class="${"help-item-bottom svelte-1gw3vkk"}"><a href="${"item.link"}" class="${"help-item-name svelte-1gw3vkk"}">${escape(item.name)}</a>
-            <a class="${"help-item-link svelte-1gw3vkk"}"${add_attribute("href", item.link, 0)}>${escape(item.linkName)}</a></div>
+  return `<section class="${"help-sect svelte-n58mh1"}"><div class="${"container"}"><h3 class="${"h3 svelte-n58mh1"}">Help Center</h3>
+    <div class="${"help-grid svelte-n58mh1"}">${each(help, (item) => {
+    return `<div class="${"help-item svelte-n58mh1"}"><div class="${"help-item-img svelte-n58mh1"}"><img${add_attribute("src", item.img, 0)} alt="${""}" class="${"svelte-n58mh1"}"></div>
+          <div class="${"help-item-bottom svelte-n58mh1"}"><a href="${"item.link"}" class="${"help-item-name svelte-n58mh1"}">${escape(item.name)}</a>
+            <a class="${"help-item-link svelte-n58mh1"}"${add_attribute("href", item.link, 0)}>${escape(item.linkName)}</a></div>
         </div>`;
   })}</div></div>
 </section>`;

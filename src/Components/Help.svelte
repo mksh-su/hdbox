@@ -102,7 +102,7 @@
           transform: translateY(-50%);
           height: 7px;
           width: 4px;
-          background-image: url(../../img/help/arrow-right.svg);
+          background-image: url(/img/help/arrow-right.svg);
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
