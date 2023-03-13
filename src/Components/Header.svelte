@@ -94,7 +94,7 @@
           text-decoration: none;
           font-size: 14px;
           font-family: $heading-font;
-          transition: .3s;
+          transition: 0.3s;
           &:hover {
             color: darken(white, 10%);
           }
@@ -110,6 +110,9 @@
 
       a {
         color: #0f0f0f;
+        &:hover {
+          color: lighten(#0f0f0f, 30%);
+        }
       }
 
       .header-nav {
@@ -121,8 +124,8 @@
         &-btn {
           color: #0f0f0f;
           &:after {
-            border-right: 1px solid #DBDBDB;
-            border-bottom: 1px solid #DBDBDB;
+            border-right: 1px solid #dbdbdb;
+            border-bottom: 1px solid #dbdbdb;
           }
         }
       }
@@ -135,12 +138,12 @@
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 6px;
     min-width: 108px;
+    cursor: pointer;
 
     .select-btn {
       box-sizing: border-box;
       border-radius: 3px;
       width: 100%;
-      cursor: pointer;
       position: relative;
       user-select: none;
       color: white;

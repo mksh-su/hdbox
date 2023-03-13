@@ -42,7 +42,7 @@ const AboutMain = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 });
 const AboutForm_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".form-top.svelte-1bzjduw.svelte-1bzjduw{border:1px solid #dbdbdb;border-radius:12px 12px 0 0;padding:64px 100px 50px 100px}.form-bottom.svelte-1bzjduw.svelte-1bzjduw{border:1px solid #dbdbdb;border-top:0;border-radius:0 0 12px 12px;padding:34px 100px 44px 100px;display:flex}.form-bottom-col.svelte-1bzjduw.svelte-1bzjduw:first-of-type{flex-basis:40%}.form-bottom-col-contact.svelte-1bzjduw.svelte-1bzjduw{display:flex;flex-direction:column;gap:12px}.form-bottom-col-contact-text.svelte-1bzjduw.svelte-1bzjduw{display:flex;align-items:center;gap:14px;color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1bzjduw a.svelte-1bzjduw{color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1bzjduw img.svelte-1bzjduw{max-width:16px}.form-bottom-col-social.svelte-1bzjduw .h4.svelte-1bzjduw{font-size:18px;font-weight:500;margin:0 0 16px}.form-bottom-col-social-grid.svelte-1bzjduw.svelte-1bzjduw{display:grid;grid-template-columns:repeat(2, 1fr);gap:10px 40px}.form-row.svelte-1bzjduw.svelte-1bzjduw{display:flex;align-items:flex-start}.form-row-item.svelte-1bzjduw.svelte-1bzjduw:last-of-type{margin-left:auto}.form-row-item.svelte-1bzjduw .h2.svelte-1bzjduw{font-size:32px;margin:0 0 26px}.form-row-item.svelte-1bzjduw .text.svelte-1bzjduw{max-width:270px;color:#707070}",
+  code: '.form-grid.svelte-1ouh2dn.svelte-1ouh2dn{display:grid;grid-template-columns:repeat(2, 1fr);gap:24px;margin-top:80px}.form-input.svelte-1ouh2dn.svelte-1ouh2dn{border:0;border-bottom:1px solid #DBDBDB;padding:14px 0;font-size:12px;outline:none}.form-input.svelte-1ouh2dn.svelte-1ouh2dn::placeholder{color:#A6A6A6}.form-label.svelte-1ouh2dn.svelte-1ouh2dn{display:flex;flex-direction:column}.form-label-name.svelte-1ouh2dn.svelte-1ouh2dn{color:#484848;font-size:14px;font-family:"Rational Display", sans-serif}.form-label-message.svelte-1ouh2dn.svelte-1ouh2dn{margin:48px 0 36px}.form-top.svelte-1ouh2dn.svelte-1ouh2dn{border:1px solid #dbdbdb;border-radius:12px 12px 0 0;padding:64px 100px 50px 100px}.form-bottom.svelte-1ouh2dn.svelte-1ouh2dn{border:1px solid #dbdbdb;border-top:0;border-radius:0 0 12px 12px;padding:34px 100px 44px 100px;display:flex}.form-bottom-col.svelte-1ouh2dn.svelte-1ouh2dn:first-of-type{flex-basis:40%}.form-bottom-col-contact.svelte-1ouh2dn.svelte-1ouh2dn{display:flex;flex-direction:column;gap:12px}.form-bottom-col-contact-text.svelte-1ouh2dn.svelte-1ouh2dn{display:flex;align-items:center;gap:14px;color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1ouh2dn a.svelte-1ouh2dn{color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1ouh2dn img.svelte-1ouh2dn{max-width:16px}.form-bottom-col-social.svelte-1ouh2dn .h4.svelte-1ouh2dn{font-size:18px;font-weight:500;margin:0 0 16px}.form-bottom-col-social-grid.svelte-1ouh2dn.svelte-1ouh2dn{display:grid;grid-template-columns:repeat(2, 1fr);gap:10px 40px}.form-row.svelte-1ouh2dn.svelte-1ouh2dn{display:flex;align-items:flex-start}.form-row-item.svelte-1ouh2dn.svelte-1ouh2dn:last-of-type{margin-left:auto}.form-row-item.svelte-1ouh2dn .h2.svelte-1ouh2dn{font-size:32px;margin:0 0 26px}.form-row-item.svelte-1ouh2dn .text.svelte-1ouh2dn{max-width:270px;color:#707070}',
   map: null
 };
 const AboutForm = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -53,22 +53,32 @@ const AboutForm = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     { name: "YouTube", link: "/#4" }
   ];
   $$result.css.add(css);
-  return `<div class="${"form-sect"}"><div class="${"container"}"><div class="${"form-top svelte-1bzjduw"}"><div class="${"form-row svelte-1bzjduw"}"><div class="${"form-row-item svelte-1bzjduw"}"><h2 class="${"h2 svelte-1bzjduw"}">Contact information</h2>
-          <p class="${"text svelte-1bzjduw"}">Fill up the form and our Team will get back to you within 24 hours.</p>
-          <form action="${""}" class="${"form"}"></form></div>
-        <div class="${"form-row-item svelte-1bzjduw"}"><img src="${"./img/about/contact.svg"}" class="${"form-two-item-img"}" alt="${""}"></div></div></div>
-    <div class="${"form-bottom svelte-1bzjduw"}"><div class="${"form-bottom-col form-bottom-col-contact svelte-1bzjduw"}"><a class="${"form-bottom-col-contact-text svelte-1bzjduw"}" href="${"mailto:info@hdbox.com"}"><img src="${"./img/about/email.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
+  return `<div class="${"form-sect"}"><div class="${"container"}"><div class="${"form-top svelte-1ouh2dn"}"><div class="${"form-row svelte-1ouh2dn"}"><div class="${"form-row-item svelte-1ouh2dn"}"><h2 class="${"h2 svelte-1ouh2dn"}">Contact information</h2>
+          <p class="${"text svelte-1ouh2dn"}">Fill up the form and our Team will get back to you within 24 hours.</p>
+          <form action="${""}" class="${"form"}"><div class="${"form-grid svelte-1ouh2dn"}"><label class="${"form-label svelte-1ouh2dn"}"><span class="${"form-label-name svelte-1ouh2dn"}">First name</span>
+                <input type="${"text"}" class="${"form-input svelte-1ouh2dn"}" placeholder="${"Ex. John"}"></label>
+              <label class="${"form-label svelte-1ouh2dn"}"><span class="${"form-label-name svelte-1ouh2dn"}">Last name</span>
+                <input type="${"text"}" class="${"form-input svelte-1ouh2dn"}" placeholder="${"Ex. Doe"}"></label>
+              <label class="${"form-label svelte-1ouh2dn"}"><span class="${"form-label-name svelte-1ouh2dn"}">Mail</span>
+                <input type="${"email"}" class="${"form-input svelte-1ouh2dn"}" placeholder="${"Ex. John@mail.com"}"></label>
+              <label class="${"form-label svelte-1ouh2dn"}"><span class="${"form-label-name svelte-1ouh2dn"}">Phone</span>
+                <input type="${"tel"}" class="${"form-input svelte-1ouh2dn"}" placeholder="${"Ex. +900 000 000"}"></label></div>
+            <label class="${"form-label form-label-message svelte-1ouh2dn"}"><span class="${"form-label-name svelte-1ouh2dn"}">Message</span>
+              <textarea class="${"form-input svelte-1ouh2dn"}" placeholder="${"Problem, Question, Suggestion..."}"></textarea></label>
+            <input type="${"submit"}" class="${"btn btn-red-fill"}" value="${"Send Message"}"></form></div>
+        <div class="${"form-row-item svelte-1ouh2dn"}"><img src="${"./img/about/contact.svg"}" class="${"form-two-item-img"}" alt="${""}"></div></div></div>
+    <div class="${"form-bottom svelte-1ouh2dn"}"><div class="${"form-bottom-col form-bottom-col-contact svelte-1ouh2dn"}"><a class="${"form-bottom-col-contact-text svelte-1ouh2dn"}" href="${"mailto:info@hdbox.com"}"><img src="${"./img/about/email.svg"}" alt="${""}" class="${"svelte-1ouh2dn"}">
           info@hdbox.com
         </a>
-        <span class="${"form-bottom-col-contact-text svelte-1bzjduw"}"><img src="${"./img/about/call.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
-          <a href="${""}" class="${"svelte-1bzjduw"}">0770 121 6222</a>
+        <span class="${"form-bottom-col-contact-text svelte-1ouh2dn"}"><img src="${"./img/about/call.svg"}" alt="${""}" class="${"svelte-1ouh2dn"}">
+          <a href="${""}" class="${"svelte-1ouh2dn"}">0770 121 6222</a>
           -
-          <a href="${""}" class="${"svelte-1bzjduw"}">0750 121 6222</a></span>
-        <span class="${"form-bottom-col-contact-text svelte-1bzjduw"}"><img src="${"./img/about/location.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
+          <a href="${""}" class="${"svelte-1ouh2dn"}">0750 121 6222</a></span>
+        <span class="${"form-bottom-col-contact-text svelte-1ouh2dn"}"><img src="${"./img/about/location.svg"}" alt="${""}" class="${"svelte-1ouh2dn"}">
           Empire World, Zagros, Erbil
         </span></div>
-      <div class="${"form-bottom-col form-bottom-col-social svelte-1bzjduw"}"><h4 class="${"h4 svelte-1bzjduw"}">Social</h4>
-        <div class="${"form-bottom-col-social-grid svelte-1bzjduw"}">${each(socials, (item) => {
+      <div class="${"form-bottom-col form-bottom-col-social svelte-1ouh2dn"}"><h4 class="${"h4 svelte-1ouh2dn"}">Social</h4>
+        <div class="${"form-bottom-col-social-grid svelte-1ouh2dn"}">${each(socials, (item) => {
     return `${validate_component(CustomBtn, "CustomBtn").$$render(
       $$result,
       {
