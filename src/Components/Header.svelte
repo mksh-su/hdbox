@@ -94,6 +94,10 @@
           text-decoration: none;
           font-size: 14px;
           font-family: $heading-font;
+          transition: .3s;
+          &:hover {
+            color: darken(white, 10%);
+          }
         }
       }
     }

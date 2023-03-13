@@ -250,5 +250,8 @@
         }
       }
     }
+    &-sect {
+      margin-bottom: 16px;
+    }
   }
 </style>

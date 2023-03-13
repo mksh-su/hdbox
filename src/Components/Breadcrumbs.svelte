@@ -1,5 +1,5 @@
 <script>
-  import CustomBtn from "./CustomBtn.svelte";
+  export let link = "link";
 </script>
 
 <div class="breadcrumbs">
@@ -7,9 +7,15 @@
     <div class="breadcrumbs-row">
       <a href="" class="breadcrumbs-item">HOME</a>
       /
-      <a href="" class="breadcrumbs-item">How to use</a>
-      /
-      <span class="breadcrumbs-item">Remote Control Unit (RU)</span>
+      {#if link == "howTo"}
+        <a href="" class="breadcrumbs-item">How to use</a>
+        /
+        <span class="breadcrumbs-item">Remote Control Unit (RU)</span>
+      {:else if link == "productInfo"}
+        <a href="" class="breadcrumbs-item">Product</a>
+        /
+        <span class="breadcrumbs-item">HDBOX X1</span>
+      {/if}
     </div>
   </div>
 </div>

@@ -1,40 +1,42 @@
 import { c as create_ssr_component, v as validate_component, d as add_attribute, f as each, e as escape, h as null_to_empty } from "../../chunks/index.js";
 import { C as CustomBtn, H as Header, F as Footer } from "../../chunks/Footer.js";
+import { F as Features } from "../../chunks/Features.js";
 import { register } from "swiper/element/bundle";
-import { S as Support, P as Packages } from "../../chunks/Support.js";
+import { P as Packages } from "../../chunks/Packages.js";
+import { S as Support } from "../../chunks/Support.js";
 const Hero_svelte_svelte_type_style_lang = "";
-const css$4 = {
-  code: '.hero-bg.svelte-ivzzq0.svelte-ivzzq0{object-fit:cover;object-position:center;position:absolute;min-height:100%;width:100%}.hero-sect.svelte-ivzzq0.svelte-ivzzq0{min-height:860px;height:100vh;position:relative;overflow:hidden;margin:auto}.hero-sect.svelte-ivzzq0 .svelte-ivzzq0{color:white}.hero-sect.svelte-ivzzq0 .container.svelte-ivzzq0{display:flex;flex-direction:column;height:100%}.hero-headline.svelte-ivzzq0.svelte-ivzzq0{font-weight:900;font-style:italic;font-size:32px;color:white;max-width:530px;margin:18px auto;text-transform:uppercase;text-align:center;font-family:"Sequel100Black-86", sans-serif;line-height:1.1}.hero-desc.svelte-ivzzq0.svelte-ivzzq0{color:white;font-size:16px;max-width:420px;margin:18px auto 44px;text-align:center}.hero-bottom.svelte-ivzzq0.svelte-ivzzq0{position:relative;margin-top:auto;padding-bottom:50px}.hero-bottom-row.svelte-ivzzq0.svelte-ivzzq0{display:flex;justify-content:space-between;align-items:flex-end}.hero-bottom-col.svelte-ivzzq0.svelte-ivzzq0{display:flex;flex-direction:column}.hero-bottom-col-name.svelte-ivzzq0.svelte-ivzzq0{font-size:16px}.hero-bottom-col.svelte-ivzzq0.svelte-ivzzq0:last-of-type{justify-content:flex-end}.hero-bottom-col.svelte-ivzzq0:last-of-type .hero-bottom-col-name.svelte-ivzzq0{text-align:right}.hero-bottom-col.svelte-ivzzq0:last-of-type .hero-bottom-logo-row.svelte-ivzzq0{gap:26px}.hero-bottom-logo.svelte-ivzzq0.svelte-ivzzq0{max-height:53px}.hero-bottom-logo-row.svelte-ivzzq0.svelte-ivzzq0{display:flex;align-items:center;gap:48px;margin-top:12px}',
+const css$3 = {
+  code: '.hero-bg.svelte-tnbare.svelte-tnbare{object-fit:cover;object-position:center;position:absolute;min-height:100%;width:100%}.hero-sect.svelte-tnbare.svelte-tnbare{min-height:860px;height:100vh;position:relative;overflow:hidden;margin:auto}.hero-sect.svelte-tnbare .svelte-tnbare{color:white}.hero-sect.svelte-tnbare a.svelte-tnbare{transition:0.3s}.hero-sect.svelte-tnbare a.svelte-tnbare:hover{color:#e81d2c}.hero-sect.svelte-tnbare .container.svelte-tnbare{display:flex;flex-direction:column;height:100%}.hero-headline.svelte-tnbare.svelte-tnbare{font-weight:900;font-style:italic;font-size:32px;color:white;max-width:530px;margin:18px auto;text-transform:uppercase;text-align:center;font-family:"Sequel100Black-86", sans-serif;line-height:1.1}.hero-desc.svelte-tnbare.svelte-tnbare{color:white;font-size:16px;max-width:420px;margin:18px auto 44px;text-align:center}.hero-bottom.svelte-tnbare.svelte-tnbare{position:relative;margin-top:auto;padding-bottom:50px}.hero-bottom-row.svelte-tnbare.svelte-tnbare{display:flex;justify-content:space-between;align-items:flex-end}.hero-bottom-col.svelte-tnbare.svelte-tnbare{display:flex;flex-direction:column}.hero-bottom-col-name.svelte-tnbare.svelte-tnbare{font-size:16px}.hero-bottom-col.svelte-tnbare.svelte-tnbare:last-of-type{justify-content:flex-end}.hero-bottom-col.svelte-tnbare:last-of-type .hero-bottom-col-name.svelte-tnbare{text-align:right}.hero-bottom-col.svelte-tnbare:last-of-type .hero-bottom-logo-row.svelte-tnbare{gap:26px}.hero-bottom-logo.svelte-tnbare.svelte-tnbare{max-height:53px}.hero-bottom-logo-row.svelte-tnbare.svelte-tnbare{display:flex;align-items:center;gap:48px;margin-top:12px}',
   map: null
 };
 const Hero = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$4);
-  return `<section class="${"hero-sect svelte-ivzzq0"}"><img src="${"./img/hero-bg.jpg"}" class="${"hero-bg svelte-ivzzq0"}" alt="${""}">
-  <div class="${"container svelte-ivzzq0"}"><div class="${"hero-bottom svelte-ivzzq0"}"><p class="${"hero-headline svelte-ivzzq0"}">unlock the world of higher definition</p>
-      <p class="${"hero-desc svelte-ivzzq0"}">The new HDBOX satellite receiver will provide you with the best TV watching experience that will transform your
+  $$result.css.add(css$3);
+  return `<section class="${"hero-sect svelte-tnbare"}"><img src="${"./img/hero-bg.jpg"}" class="${"hero-bg svelte-tnbare"}" alt="${""}">
+  <div class="${"container svelte-tnbare"}"><div class="${"hero-bottom svelte-tnbare"}"><p class="${"hero-headline svelte-tnbare"}">unlock the world of higher definition</p>
+      <p class="${"hero-desc svelte-tnbare"}">The new HDBOX satellite receiver will provide you with the best TV watching experience that will transform your
         living room into a movie theatre.
-        <a href="${""}" class="${"svelte-ivzzq0"}">Check Our Products</a></p>
-      <div class="${"hero-bottom-row svelte-ivzzq0"}"><div class="${"hero-bottom-col svelte-ivzzq0"}"><span class="${"hero-bottom-col-name svelte-ivzzq0"}">The new HDBOX satellite</span>
-          <div class="${"hero-bottom-logo-row svelte-ivzzq0"}"><img src="${"./img/icons/forevertv-white.svg"}" class="${"hero-bottom-logo svelte-ivzzq0"}" alt="${""}">
-            <img src="${"./img/icons/youtube-white.svg"}" class="${"hero-bottom-logo svelte-ivzzq0"}" alt="${""}"></div></div>
-        <div class="${"hero-bottom-col svelte-ivzzq0"}"><span class="${"hero-bottom-col-name svelte-ivzzq0"}">The new HDBOX satellite</span>
-          <div class="${"hero-bottom-logo-row svelte-ivzzq0"}"><img src="${"./img/icons/full-hd.svg"}" class="${"hero-bottom-logo svelte-ivzzq0"}" alt="${""}">
-            <img src="${"./img/icons/channels-white.png"}" class="${"hero-bottom-logo svelte-ivzzq0"}" alt="${""}"></div></div></div></div></div>
+        <a href="${""}" class="${"svelte-tnbare"}">Check Our Products</a></p>
+      <div class="${"hero-bottom-row svelte-tnbare"}"><div class="${"hero-bottom-col svelte-tnbare"}"><span class="${"hero-bottom-col-name svelte-tnbare"}">The new HDBOX satellite</span>
+          <div class="${"hero-bottom-logo-row svelte-tnbare"}"><img src="${"./img/icons/forevertv-white.svg"}" class="${"hero-bottom-logo svelte-tnbare"}" alt="${""}">
+            <img src="${"./img/icons/youtube-white.svg"}" class="${"hero-bottom-logo svelte-tnbare"}" alt="${""}"></div></div>
+        <div class="${"hero-bottom-col svelte-tnbare"}"><span class="${"hero-bottom-col-name svelte-tnbare"}">The new HDBOX satellite</span>
+          <div class="${"hero-bottom-logo-row svelte-tnbare"}"><img src="${"./img/icons/full-hd.svg"}" class="${"hero-bottom-logo svelte-tnbare"}" alt="${""}">
+            <img src="${"./img/icons/channels-white.png"}" class="${"hero-bottom-logo svelte-tnbare"}" alt="${""}"></div></div></div></div></div>
 </section>`;
 });
 const Products_svelte_svelte_type_style_lang = "";
-const css$3 = {
-  code: '.product-sect.svelte-nnefqp.svelte-nnefqp{margin:110px 0 130px}.product-item.svelte-nnefqp.svelte-nnefqp{background:rgba(233, 233, 233, 0.3);border-radius:12px;text-align:center;flex-grow:1;flex-basis:50%;padding:40px}.product-item-headline.svelte-nnefqp.svelte-nnefqp{font-size:24px;font-weight:500;margin:18px auto;max-width:260px}.product-item-img.svelte-nnefqp.svelte-nnefqp{height:320px;display:flex;align-items:center;justify-content:center;margin:0 0 60px}.product-item-img.svelte-nnefqp img.svelte-nnefqp{max-height:100%}.product-row.svelte-nnefqp.svelte-nnefqp{display:flex;gap:16px}.app-row.svelte-nnefqp.svelte-nnefqp{display:flex;align-items:center;border:1px solid #d9d9d9;border-radius:12px;margin-top:16px}.app-col.svelte-nnefqp.svelte-nnefqp{display:flex;flex-direction:column;align-items:flex-start;flex-basis:50%}.app-col.svelte-nnefqp .text.svelte-nnefqp{margin:18px 0;font-weight:500;font-family:"Rational Display", sans-serif}.app-col.svelte-nnefqp.svelte-nnefqp:last-of-type{padding-right:120px}.app-link.svelte-nnefqp.svelte-nnefqp{text-decoration:none}.app-link-row.svelte-nnefqp.svelte-nnefqp{display:flex;gap:16px;margin-top:20px}',
+const css$2 = {
+  code: '.product-sect.svelte-1vz4egt.svelte-1vz4egt{margin:110px 0 130px}.product-item.svelte-1vz4egt.svelte-1vz4egt{background:rgba(233, 233, 233, 0.3);border-radius:12px;text-align:center;flex-grow:1;flex-basis:50%;padding:40px}.product-item-headline.svelte-1vz4egt.svelte-1vz4egt{font-size:24px;font-weight:500;margin:18px auto;max-width:260px}.product-item-img.svelte-1vz4egt.svelte-1vz4egt{height:320px;display:flex;align-items:center;justify-content:center;margin:0 0 60px}.product-item-img.svelte-1vz4egt img.svelte-1vz4egt{max-height:100%}.product-row.svelte-1vz4egt.svelte-1vz4egt{display:flex;gap:16px}.app-row.svelte-1vz4egt.svelte-1vz4egt{display:flex;align-items:center;border:1px solid #d9d9d9;border-radius:12px;margin-top:16px}.app-col.svelte-1vz4egt.svelte-1vz4egt{display:flex;flex-direction:column;align-items:flex-start;flex-basis:50%}.app-col.svelte-1vz4egt .text.svelte-1vz4egt{margin:18px 0;font-weight:500;font-family:"Rational Display", sans-serif}.app-col.svelte-1vz4egt.svelte-1vz4egt:last-of-type{padding-right:120px}.app-link.svelte-1vz4egt.svelte-1vz4egt{text-decoration:none;transition:0.3s}.app-link.svelte-1vz4egt.svelte-1vz4egt:hover{opacity:0.8}.app-link-row.svelte-1vz4egt.svelte-1vz4egt{display:flex;gap:16px;margin-top:20px}',
   map: null
 };
 const Products = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$3);
-  return `<section class="${"product-sect svelte-nnefqp"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">A small box filled with new experiences.</h2>
+  $$result.css.add(css$2);
+  return `<section class="${"product-sect svelte-1vz4egt"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">A small box filled with new experiences.</h2>
       <p class="${"text"}">Mediastar devices use high quality display resolutions to provide users with a luxurious experience.
       </p></div>
-    <div class="${"product-row svelte-nnefqp"}"><div class="${"product-item svelte-nnefqp"}"><div class="${"product-item-img svelte-nnefqp"}"><img src="${"./img/product/m1.svg"}" alt="${""}" class="${"svelte-nnefqp"}"></div>
+    <div class="${"product-row svelte-1vz4egt"}"><div class="${"product-item svelte-1vz4egt"}"><div class="${"product-item-img svelte-1vz4egt"}"><img src="${"./img/product/m1.svg"}" alt="${""}" class="${"svelte-1vz4egt"}"></div>
         <div class="${"product-item-name"}"><img src="${"./img/product/m1-sign.svg"}" alt="${""}"></div>
-        <p class="${"product-item-headline svelte-nnefqp"}">Say hello to your new streming device</p>
+        <p class="${"product-item-headline svelte-1vz4egt"}">Say hello to your new streming device</p>
         ${validate_component(CustomBtn, "CustomBtn").$$render(
     $$result,
     {
@@ -45,9 +47,9 @@ const Products = create_ssr_component(($$result, $$props, $$bindings, slots) => 
     {},
     {}
   )}</div>
-      <div class="${"product-item svelte-nnefqp"}"><div class="${"product-item-img svelte-nnefqp"}"><img src="${"./img/product/x1.svg"}" alt="${""}" class="${"svelte-nnefqp"}"></div>
+      <div class="${"product-item svelte-1vz4egt"}"><div class="${"product-item-img svelte-1vz4egt"}"><img src="${"./img/product/x1.svg"}" alt="${""}" class="${"svelte-1vz4egt"}"></div>
         <div class="${"product-item-name"}"><img src="${"./img/product/x1-sign.svg"}" alt="${""}"></div>
-        <p class="${"product-item-headline svelte-nnefqp"}">A small box for best experience</p>
+        <p class="${"product-item-headline svelte-1vz4egt"}">A small box for best experience</p>
         ${validate_component(CustomBtn, "CustomBtn").$$render(
     $$result,
     {
@@ -58,54 +60,13 @@ const Products = create_ssr_component(($$result, $$props, $$bindings, slots) => 
     {},
     {}
   )}</div></div>
-    <div class="${"app-row svelte-nnefqp"}"><div class="${"app-col svelte-nnefqp"}"><img src="${"./img/product/app-screen.png"}" class="${"app-col-img"}" alt="${""}"></div>
-      <div class="${"app-col svelte-nnefqp"}"><img src="${"./img/product/app-logo.svg"}" alt="${""}">
-        <p class="${"text svelte-nnefqp"}">Using the XBOX app, you can easily renew and manage your subscriptions, and packages, register your device,
+    <div class="${"app-row svelte-1vz4egt"}"><div class="${"app-col svelte-1vz4egt"}"><img src="${"./img/product/app-screen.png"}" class="${"app-col-img"}" alt="${""}"></div>
+      <div class="${"app-col svelte-1vz4egt"}"><img src="${"./img/product/app-logo.svg"}" alt="${""}">
+        <p class="${"text svelte-1vz4egt"}">Using the XBOX app, you can easily renew and manage your subscriptions, and packages, register your device,
           and check your balance.
         </p>
-        <div class="${"app-link-row svelte-nnefqp"}"><a href="${""}" class="${"app-link svelte-nnefqp"}"><img src="${"./img/icons/app-store.svg"}" alt="${""}"></a>
-          <a href="${""}" class="${"app-link svelte-nnefqp"}"><img src="${"./img/icons/google-play.svg"}" alt="${""}"></a></div></div></div></div>
-</section>`;
-});
-const Features_svelte_svelte_type_style_lang = "";
-const css$2 = {
-  code: '.feature-grid.svelte-mhz588.svelte-mhz588{display:grid;gap:16px;grid-template-columns:1fr 2fr 1.4fr;grid-template-rows:1fr 0.5fr 0.5fr 0fr;grid-auto-flow:row;grid-template-areas:"Left TVLG H265" "Perks TVLG WIFI" "Perks VODPVR TimeShift" "YT HDMIUSB ForeverTV"}.feature-grid.svelte-mhz588 .Left.svelte-mhz588{grid-area:Left;display:flex;flex-direction:column;align-items:center;padding:28px 20px}.feature-grid.svelte-mhz588 .Left img.svelte-mhz588{margin:20px auto;padding-right:30px}.feature-grid.svelte-mhz588 .Left .feature-item-text.svelte-mhz588{margin-top:auto}.feature-grid.svelte-mhz588 .WIFI.svelte-mhz588{grid-area:WIFI;display:flex;align-items:center;gap:10px;padding-right:10px}.feature-grid.svelte-mhz588 .WIFI .feature-item-text.svelte-mhz588{font-size:22px}.feature-grid.svelte-mhz588 .TimeShift.svelte-mhz588{grid-area:TimeShift;display:flex}.feature-grid.svelte-mhz588 .TimeShift img.svelte-mhz588{max-width:210px;margin:auto}.feature-grid.svelte-mhz588 .VODPVR.svelte-mhz588{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr;grid-auto-flow:row;grid-template-areas:". .";grid-area:VODPVR;border:0;padding:0;gap:16px}.feature-grid.svelte-mhz588 .VODPVR .feature-item-inner.svelte-mhz588{border:1px solid #dbdbdb;padding:56px 48px;border-radius:12px}.feature-grid.svelte-mhz588 .Perks.svelte-mhz588{grid-area:Perks}.feature-grid.svelte-mhz588 .YT.svelte-mhz588{grid-area:YT;display:flex;justify-content:center;align-items:center}.feature-grid.svelte-mhz588 .HDMIUSB.svelte-mhz588{grid-area:HDMIUSB;display:flex;gap:44px;justify-content:center;padding:55px}.feature-grid.svelte-mhz588 .ForeverTV.svelte-mhz588{grid-area:ForeverTV;background-image:url("/src/Assets/img/other/forever-bg.png");background-size:cover;display:flex;justify-content:center;align-items:center}.feature-grid.svelte-mhz588 .H265.svelte-mhz588{grid-area:H265;display:flex;flex-direction:column;align-items:center}.feature-grid.svelte-mhz588 .H265 img.svelte-mhz588{margin:20px auto}.feature-grid.svelte-mhz588 .H265 .feature-item-text.svelte-mhz588{margin-top:auto}.feature-grid.svelte-mhz588 .TVLG.svelte-mhz588{grid-area:TVLG;display:flex;flex-direction:column;align-items:center;padding:20px 20px 28px 20px}.feature-grid.svelte-mhz588 .TVLG .feature-item-tv.svelte-mhz588{border:4px solid black;box-shadow:10px 10px 25px 5px rgba(0, 0, 0, 0.2);display:flex;width:100%}.feature-grid.svelte-mhz588 .TVLG .feature-item-text.svelte-mhz588{margin-top:auto;font-size:22px}.feature-grid.svelte-mhz588 .TVLG img.svelte-mhz588{width:100%}.feature-item.svelte-mhz588.svelte-mhz588{border:1px solid #dbdbdb;border-radius:12px;padding:28px;text-align:center}.feature-item-text.svelte-mhz588.svelte-mhz588{margin:0;font-family:"Rational Display", sans-serif}.feature-item-small.svelte-mhz588.svelte-mhz588{display:flex;align-items:center;text-align:left;margin:14px 0}.feature-item-small-icon.svelte-mhz588.svelte-mhz588{min-width:18px;margin-right:18px}.feature-item-small-name.svelte-mhz588.svelte-mhz588{text-transform:uppercase;font-size:10px}',
-  map: null
-};
-const Features = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$2);
-  return `<section class="${"feature-sect"}"><div class="${"container"}"><div class="${"section-desc"}"><h2 class="${"h2"}">Delivering extraordinary experiences in a small package</h2>
-      <p class="${"text"}">Mediastar devices use high quality display resolutions to provide users with a luxurious experience.
-      </p></div>
-    <div class="${"feature-grid svelte-mhz588"}"><div class="${"feature-item Left svelte-mhz588"}"><img src="${"./img/icons/channels-black.svg"}" alt="${""}" class="${"svelte-mhz588"}">
-        <p class="${"text feature-item-text svelte-mhz588"}">The best shows, movies, sports and live TV.</p></div>
-      <div class="${"feature-item TVLG svelte-mhz588"}"><div class="${"feature-item-tv svelte-mhz588"}"><img src="${"./img/other/avatar.jpg"}" alt="${""}" class="${"svelte-mhz588"}"></div>
-        <p class="${"text feature-item-text svelte-mhz588"}">Unlock the world of Higher Definition</p></div>
-      <div class="${"feature-item H265 svelte-mhz588"}"><img src="${"./img/icons/full-hd-red.svg"}" alt="${""}" class="${"svelte-mhz588"}">
-        <p class="${"text feature-item-text svelte-mhz588"}">High-Efficiency Video Coding support and FHD resolution</p></div>
-      <div class="${"feature-item Perks svelte-mhz588"}"><div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-audio.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Multi-language audio</span></div>
-        <div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-search.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Blind search supported</span></div>
-        <div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-satellite.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Multi satellite search. Network search</span></div>
-        <div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-update.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Software and addition/ data upgrade through USB</span></div>
-        <div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-ratio.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Variable aspect ratio (4:3.169) with Pan &amp; scan vector or letter box option
-          </span></div>
-        <div class="${"feature-item-small svelte-mhz588"}"><img src="${"./img/icons/feature-storing.svg"}" class="${"feature-item-small-icon svelte-mhz588"}" alt="${""}">
-          <span class="${"feature-item-small-name svelte-mhz588"}">Storing memory: more than 100 satellite, 4000 transponders and 8000 channels
-          </span></div></div>
-      <div class="${"feature-item VODPVR svelte-mhz588"}"><div class="${"feature-item-inner svelte-mhz588"}"><img src="${"./img/icons/vod.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div>
-        <div class="${"feature-item-inner svelte-mhz588"}"><img src="${"./img/icons/pvr.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div></div>
-      <div class="${"feature-item WIFI svelte-mhz588"}"><img src="${"./img/icons/wi-fi.svg"}" alt="${""}" class="${"svelte-mhz588"}">
-        <p class="${"text feature-item-text svelte-mhz588"}">Internal Wi-Fi Support</p></div>
-      <div class="${"feature-item TimeShift svelte-mhz588"}"><img src="${"./img/icons/timeshift.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div>
-      <div class="${"feature-item YT svelte-mhz588"}"><img src="${"./img/icons/youtube-black.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div>
-      <div class="${"feature-item HDMIUSB svelte-mhz588"}"><img src="${"./img/icons/hdmi-black.svg"}" alt="${""}" class="${"svelte-mhz588"}">
-        <img src="${"./img/icons/usb.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div>
-      <div class="${"feature-item ForeverTV svelte-mhz588"}"><img src="${"./img/icons/forevertv-white-big.svg"}" alt="${""}" class="${"svelte-mhz588"}"></div></div></div>
+        <div class="${"app-link-row svelte-1vz4egt"}"><a href="${""}" class="${"app-link svelte-1vz4egt"}"><img src="${"./img/icons/app-store.svg"}" alt="${""}"></a>
+          <a href="${""}" class="${"app-link svelte-1vz4egt"}"><img src="${"./img/icons/google-play.svg"}" alt="${""}"></a></div></div></div></div>
 </section>`;
 });
 const Releases_svelte_svelte_type_style_lang = "";

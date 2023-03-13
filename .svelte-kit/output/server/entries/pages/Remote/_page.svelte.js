@@ -1,19 +1,6 @@
 import { c as create_ssr_component, v as validate_component } from "../../../chunks/index.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
-const Breadcrumbs_svelte_svelte_type_style_lang = "";
-const css$1 = {
-  code: '.breadcrumbs-row.svelte-g6dyh7.svelte-g6dyh7{font-family:"Rational Display", sans-serif;font-size:14px;font-weight:300;padding:14px 0;border-bottom:1px solid #dcdcd2}.breadcrumbs.svelte-g6dyh7 a.breadcrumbs-item.svelte-g6dyh7{color:#a6a6a6;text-decoration:none}.breadcrumbs.svelte-g6dyh7 span.breadcrumbs-item.svelte-g6dyh7{color:#484848;font-weight:400}',
-  map: null
-};
-const Breadcrumbs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$1);
-  return `<div class="${"breadcrumbs svelte-g6dyh7"}"><div class="${"container"}"><div class="${"breadcrumbs-row svelte-g6dyh7"}"><a href="${""}" class="${"breadcrumbs-item svelte-g6dyh7"}">HOME</a>
-      /
-      <a href="${""}" class="${"breadcrumbs-item svelte-g6dyh7"}">How to use</a>
-      /
-      <span class="${"breadcrumbs-item svelte-g6dyh7"}">Remote Control Unit (RU)</span></div></div>
-</div>`;
-});
+import { B as Breadcrumbs } from "../../../chunks/Breadcrumbs.js";
 const Remote_svelte_svelte_type_style_lang = "";
 const css = {
   code: '.usage.svelte-w0jeyd.svelte-w0jeyd{margin:100px 0}.usage-row.svelte-w0jeyd.svelte-w0jeyd{display:flex}.usage-col.svelte-w0jeyd.svelte-w0jeyd:last-of-type{margin-left:auto}.usage.svelte-w0jeyd .h1.svelte-w0jeyd{font-weight:500;font-size:32px;margin:0}.usage-list.svelte-w0jeyd.svelte-w0jeyd{list-style:none;padding-left:0;font-family:"Rational Display", sans-serif;font-weight:500}',
@@ -71,7 +58,7 @@ const Remote = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Header, "Header").$$render($$result, { position: "static" }, {}, {})}
-${validate_component(Breadcrumbs, "Breadcrumbs").$$render($$result, {}, {}, {})}
+${validate_component(Breadcrumbs, "Breadcrumbs").$$render($$result, { link: "howTo" }, {}, {})}
 ${validate_component(Remote, "Remote").$$render($$result, {}, {}, {})}
 ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`;
 });

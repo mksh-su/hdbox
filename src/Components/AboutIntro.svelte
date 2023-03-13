@@ -22,22 +22,29 @@
   $sequel-font: "Sequel100Black-86", sans-serif;
   $red-color: #e81d2c;
 
-  .intro-sect {
-    .container {
-      position: relative;
+  .intro {
+    &-bg {
+      display: flex;
+      border: 4px solid black;
+      box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.2);
     }
-    .h1 {
-      font-family: $sequel-font;
-      color: white;
-      font-size: 48px;
-      text-transform: uppercase;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      min-width: 700px;
-      line-height: 1.2;
+    &-sect {
+      .container {
+        position: relative;
+      }
+      .h1 {
+        font-family: $sequel-font;
+        color: white;
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 700px;
+        line-height: 1.2;
+      }
     }
   }
 

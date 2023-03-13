@@ -3,21 +3,23 @@
   import CustomBtn from "./CustomBtn.svelte";
 </script>
 
-<div class="container">
-  <section class="package-sect wrapper">
-    <div class="avatar">
-      <PackagesAvatar />
+<section class="package-sect">
+  <div class="container">
+    <div class="wrapper">
+      <div class="avatar">
+        <PackagesAvatar />
+      </div>
+      <div class="content">
+        <h6 class="h6">Channels & Packages</h6>
+        <p class="text">
+          There's nothing better than watching live TV, movies, or sports. With over 280 channels and packages to choose
+          from, the HDBOX has something for everyone
+        </p>
+        <CustomBtn text="Discover Now" link="#" font_size="lg" />
+      </div>
     </div>
-    <div class="content">
-      <h6 class="h6">Channels & Packages</h6>
-      <p class="text">
-        There's nothing better than watching live TV, movies, or sports. With over 280 channels and packages to choose
-        from, the HDBOX has something for everyone
-      </p>
-      <CustomBtn text="Discover Now" link="#" font_size="lg" />
-    </div>
-  </section>
-</div>
+  </div>
+</section>
 
 <style lang="scss">
   $heading-font: "Rational Display", sans-serif;
@@ -26,7 +28,7 @@
   $red-color: #e81d2c;
   .package {
     &-sect {
-      margin-bottom: 100px;
+      margin-bottom: 16px;
     }
   }
   .h6 {

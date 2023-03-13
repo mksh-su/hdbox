@@ -6,7 +6,7 @@
 </script>
 
 <Header position="static" />
-<Breadcrumbs />
+<Breadcrumbs link="howTo" />
 <Remote />
 <Footer />
 

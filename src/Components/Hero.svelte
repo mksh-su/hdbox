@@ -58,6 +58,13 @@
         color: white;
       }
 
+      a {
+        transition: .3s;
+        &:hover {
+          color: $red-color;
+        }
+      }
+
       .container {
         display: flex;
         flex-direction: column;

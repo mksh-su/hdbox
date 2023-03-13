@@ -1,16 +1,17 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index.js";
-import { H as Header, F as Footer } from "../../../chunks/Footer.js";
-import { P as Packages, S as Support } from "../../../chunks/Support.js";
+import { c as create_ssr_component, f as each, v as validate_component } from "../../../chunks/index.js";
+import { C as CustomBtn, H as Header, F as Footer } from "../../../chunks/Footer.js";
+import { P as Packages } from "../../../chunks/Packages.js";
+import { S as Support } from "../../../chunks/Support.js";
 const AboutIntro_svelte_svelte_type_style_lang = "";
 const css$2 = {
-  code: '.intro-sect.svelte-ft6o1i .container.svelte-ft6o1i{position:relative}.intro-sect.svelte-ft6o1i .h1.svelte-ft6o1i{font-family:"Sequel100Black-86", sans-serif;color:white;font-size:48px;text-transform:uppercase;text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);min-width:700px;line-height:1.2}.about-product.svelte-ft6o1i.svelte-ft6o1i{text-align:center;transform:translateY(-50%)}.about-product-img.svelte-ft6o1i.svelte-ft6o1i{max-width:350px;margin:auto}',
+  code: '.intro-bg.svelte-1w7p0lb.svelte-1w7p0lb{display:flex;border:4px solid black;box-shadow:10px 10px 25px 10px rgba(0, 0, 0, 0.2)}.intro-sect.svelte-1w7p0lb .container.svelte-1w7p0lb{position:relative}.intro-sect.svelte-1w7p0lb .h1.svelte-1w7p0lb{font-family:"Sequel100Black-86", sans-serif;color:white;font-size:48px;text-transform:uppercase;text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);min-width:700px;line-height:1.2}.about-product.svelte-1w7p0lb.svelte-1w7p0lb{text-align:center;transform:translateY(-50%)}.about-product-img.svelte-1w7p0lb.svelte-1w7p0lb{max-width:350px;margin:auto}',
   map: null
 };
 const AboutIntro = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$2);
-  return `<div class="${"intro-sect svelte-ft6o1i"}"><div class="${"container svelte-ft6o1i"}"><h1 class="${"h1 svelte-ft6o1i"}">unlock the world of higher definition</h1>
-    <div class="${"intro-bg"}"><img src="${"./img/about/intro-img.jpg"}" class="${"intro-bg-inner"}" alt="${""}"></div></div></div>
-<div class="${"about-product svelte-ft6o1i"}"><div class="${"container"}"><img src="${"./img/about/box.png"}" class="${"about-product-img svelte-ft6o1i"}" alt="${""}"></div>
+  return `<div class="${"intro-sect svelte-1w7p0lb"}"><div class="${"container svelte-1w7p0lb"}"><h1 class="${"h1 svelte-1w7p0lb"}">unlock the world of higher definition</h1>
+    <div class="${"intro-bg svelte-1w7p0lb"}"><img src="${"./img/about/intro-img.jpg"}" class="${"intro-bg-inner"}" alt="${""}"></div></div></div>
+<div class="${"about-product svelte-1w7p0lb"}"><div class="${"container"}"><img src="${"./img/about/box.png"}" class="${"about-product-img svelte-1w7p0lb"}" alt="${""}"></div>
 </div>`;
 });
 const AboutMain_svelte_svelte_type_style_lang = "";
@@ -41,16 +42,44 @@ const AboutMain = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 });
 const AboutForm_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".form-top.svelte-1j8l3ck{border:1px solid #DBDBDB;border-radius:12px 12px 0 0}.form-row.svelte-1j8l3ck{display:flex;align-items:flex-start}.form-row-item.svelte-1j8l3ck:last-of-type{margin-left:auto}",
+  code: ".form-top.svelte-1bzjduw.svelte-1bzjduw{border:1px solid #dbdbdb;border-radius:12px 12px 0 0;padding:64px 100px 50px 100px}.form-bottom.svelte-1bzjduw.svelte-1bzjduw{border:1px solid #dbdbdb;border-top:0;border-radius:0 0 12px 12px;padding:34px 100px 44px 100px;display:flex}.form-bottom-col.svelte-1bzjduw.svelte-1bzjduw:first-of-type{flex-basis:40%}.form-bottom-col-contact.svelte-1bzjduw.svelte-1bzjduw{display:flex;flex-direction:column;gap:12px}.form-bottom-col-contact-text.svelte-1bzjduw.svelte-1bzjduw{display:flex;align-items:center;gap:14px;color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1bzjduw a.svelte-1bzjduw{color:#313131;text-decoration:none}.form-bottom-col-contact-text.svelte-1bzjduw img.svelte-1bzjduw{max-width:16px}.form-bottom-col-social.svelte-1bzjduw .h4.svelte-1bzjduw{font-size:18px;font-weight:500;margin:0 0 16px}.form-bottom-col-social-grid.svelte-1bzjduw.svelte-1bzjduw{display:grid;grid-template-columns:repeat(2, 1fr);gap:10px 40px}.form-row.svelte-1bzjduw.svelte-1bzjduw{display:flex;align-items:flex-start}.form-row-item.svelte-1bzjduw.svelte-1bzjduw:last-of-type{margin-left:auto}.form-row-item.svelte-1bzjduw .h2.svelte-1bzjduw{font-size:32px;margin:0 0 26px}.form-row-item.svelte-1bzjduw .text.svelte-1bzjduw{max-width:270px;color:#707070}",
   map: null
 };
 const AboutForm = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let socials = [
+    { name: "Instagram", link: "/#" },
+    { name: "Facebook", link: "/#2" },
+    { name: "Telegram", link: "/#3" },
+    { name: "YouTube", link: "/#4" }
+  ];
   $$result.css.add(css);
-  return `<div class="${"form-sect"}"><div class="${"container"}"><div class="${"form-top svelte-1j8l3ck"}"><div class="${"form-row svelte-1j8l3ck"}"><div class="${"form-row-item svelte-1j8l3ck"}"><h2 class="${"h2"}">Contact information</h2>
-          <p class="${"text"}">Fill up the form and our Team will get back to you within 24 hours.</p>
+  return `<div class="${"form-sect"}"><div class="${"container"}"><div class="${"form-top svelte-1bzjduw"}"><div class="${"form-row svelte-1bzjduw"}"><div class="${"form-row-item svelte-1bzjduw"}"><h2 class="${"h2 svelte-1bzjduw"}">Contact information</h2>
+          <p class="${"text svelte-1bzjduw"}">Fill up the form and our Team will get back to you within 24 hours.</p>
           <form action="${""}" class="${"form"}"></form></div>
-        <div class="${"form-row-item svelte-1j8l3ck"}"><img src="${"./img/about/contact.svg"}" class="${"form-two-item-img"}" alt="${""}"></div></div></div>
-    <div class="${"form-bottom"}"></div></div>
+        <div class="${"form-row-item svelte-1bzjduw"}"><img src="${"./img/about/contact.svg"}" class="${"form-two-item-img"}" alt="${""}"></div></div></div>
+    <div class="${"form-bottom svelte-1bzjduw"}"><div class="${"form-bottom-col form-bottom-col-contact svelte-1bzjduw"}"><a class="${"form-bottom-col-contact-text svelte-1bzjduw"}" href="${"mailto:info@hdbox.com"}"><img src="${"./img/about/email.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
+          info@hdbox.com
+        </a>
+        <span class="${"form-bottom-col-contact-text svelte-1bzjduw"}"><img src="${"./img/about/call.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
+          <a href="${""}" class="${"svelte-1bzjduw"}">0770 121 6222</a>
+          -
+          <a href="${""}" class="${"svelte-1bzjduw"}">0750 121 6222</a></span>
+        <span class="${"form-bottom-col-contact-text svelte-1bzjduw"}"><img src="${"./img/about/location.svg"}" alt="${""}" class="${"svelte-1bzjduw"}">
+          Empire World, Zagros, Erbil
+        </span></div>
+      <div class="${"form-bottom-col form-bottom-col-social svelte-1bzjduw"}"><h4 class="${"h4 svelte-1bzjduw"}">Social</h4>
+        <div class="${"form-bottom-col-social-grid svelte-1bzjduw"}">${each(socials, (item) => {
+    return `${validate_component(CustomBtn, "CustomBtn").$$render(
+      $$result,
+      {
+        text: item.name,
+        link: item.link,
+        font_size: "sm"
+      },
+      {},
+      {}
+    )}`;
+  })}</div></div></div></div>
 </div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {

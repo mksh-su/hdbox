@@ -132,6 +132,10 @@
     }
     &-link {
       text-decoration: none;
+      transition: .3s;
+      &:hover {
+        opacity: .8;
+      }
       &-row {
         display: flex;
         gap: 16px;

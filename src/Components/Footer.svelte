@@ -68,6 +68,7 @@
   $red-color: #e81d2c;
   .footer {
     padding: 60px 0 40px;
+    margin-top: 80px;
     border-top: 1px solid #DBDBDB;
     .first {
       display: flex;
