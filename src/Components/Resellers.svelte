@@ -134,17 +134,17 @@
       }
       &-person {
         &:before {
-          background-image: url(../../img/reseller/user.svg);
+          background-image: url(/img/reseller/user.svg);
         }
       }
       &-location {
         &:before {
-          background-image: url(../../img/reseller/location.svg);
+          background-image: url(/img/reseller/location.svg);
         }
       }
       &-phone {
         &:before {
-          background-image: url(../../img/reseller/phone.svg);
+          background-image: url(/img/reseller/phone.svg);
         }
         a {
           text-decoration: none;
