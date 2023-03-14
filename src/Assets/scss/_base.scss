@@ -35,3 +35,12 @@ img {
     }
   }
 }
+
+.svelte-lightbox-overlay {
+  .next-button,
+  .prev-button {
+    svg {
+      cursor: pointer;
+    }
+  }
+}

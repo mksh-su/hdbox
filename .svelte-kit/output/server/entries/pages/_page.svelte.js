@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, d as add_attribute, f as each, e as escape, h as null_to_empty } from "../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component, b as add_attribute, d as each, e as escape, n as null_to_empty } from "../../chunks/index2.js";
 import { C as CustomBtn, H as Header, F as Footer } from "../../chunks/Footer.js";
 import { F as Features } from "../../chunks/Features.js";
 import { register } from "swiper/element/bundle";

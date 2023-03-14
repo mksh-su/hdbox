@@ -1,4 +1,4 @@
-import { c as create_ssr_component, f as each, v as validate_component } from "../../../chunks/index.js";
+import { c as create_ssr_component, d as each, v as validate_component } from "../../../chunks/index2.js";
 import { C as CustomBtn, H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { P as Packages } from "../../../chunks/Packages.js";
 import { S as Support } from "../../../chunks/Support.js";

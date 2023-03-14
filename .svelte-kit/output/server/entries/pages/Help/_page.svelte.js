@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, f as each, d as add_attribute, e as escape } from "../../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component, d as each, b as add_attribute, e as escape } from "../../../chunks/index2.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { S as Search } from "../../../chunks/Search.js";
 const HelpIntro_svelte_svelte_type_style_lang = "";

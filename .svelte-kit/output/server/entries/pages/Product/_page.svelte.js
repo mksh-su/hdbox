@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component } from "../../../chunks/index2.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { C as CommonIntro } from "../../../chunks/CommonIntro.js";
 import { S as Search } from "../../../chunks/Search.js";

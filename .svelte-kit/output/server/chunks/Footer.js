@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, v as validate_component, h as null_to_empty, d as add_attribute, f as each } from "./index.js";
+import { c as create_ssr_component, e as escape, v as validate_component, n as null_to_empty, b as add_attribute, d as each } from "./index2.js";
 const Logo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { type = "lg-bck" } = $$props;
   if ($$props.type === void 0 && $$bindings.type && type !== void 0)
