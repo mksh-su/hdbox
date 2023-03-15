@@ -53,6 +53,8 @@
           font-weight: 500;
           font-family: $heading-font;
           transition: 0.3s;
+          margin-bottom: 32px;
+          display: inline-block;
           &:hover {
             color: $red-color;
           }

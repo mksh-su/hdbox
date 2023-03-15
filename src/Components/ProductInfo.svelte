@@ -32,6 +32,19 @@
     }
 
     var connectTabs = new Tabs();
+
+    // tabbed gallery on top
+    const currentImg = document.querySelector(".product-info-gallery-main-item");
+    const imgs = document.querySelectorAll(".product-info-gallery-choice-image");
+    imgs.forEach((img) => {
+      img.addEventListener("click", (e) => {
+        currentImg.src = e.target.src;
+        imgs.forEach((img) => {
+          img.parentElement.classList.remove("chosen");
+        });
+        img.parentElement.classList.add("chosen");
+      });
+    });
   });
 </script>
 
@@ -39,7 +52,29 @@
   <div class="container">
     <div class="info-row">
       <div class="info-col">
-        <LightboxGallery>
+        <div class="product-info-gallery">
+          <div class="product-info-gallery-main">
+            <img src="/img/product/x1.svg" class="product-info-gallery-main-item" />
+          </div>
+          <div class="product-info-gallery-choice">
+            <div class="product-info-gallery-choice-item chosen">
+              <img src="/img/product/x1.svg" class="product-info-gallery-choice-image" alt="" />
+            </div>
+            <div class="product-info-gallery-choice-item">
+              <img src="/img/product/x2.svg" class="product-info-gallery-choice-image" alt="" />
+            </div>
+            <div class="product-info-gallery-choice-item">
+              <img src="/img/product/x3.svg" class="product-info-gallery-choice-image" alt="" />
+            </div>
+            <div class="product-info-gallery-choice-item">
+              <img src="/img/product/m1.svg" class="product-info-gallery-choice-image" alt="" />
+            </div>
+            <div class="product-info-gallery-choice-item">
+              <img src="/img/product/m2.svg" class="product-info-gallery-choice-image" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- <LightboxGallery>
           <svelte:fragment slot="thumbnail">
             <div class="sample-class-1">
               <GalleryThumbnail>
@@ -57,7 +92,7 @@
           <GalleryImage>
             <img src="/img/product/x3.svg" alt="Simple lightbox" />
           </GalleryImage>
-        </LightboxGallery>
+        </LightboxGallery> -->
       </div>
       <div class="info-col">
         <nav class="b-nav">
@@ -104,8 +139,8 @@
                 <p>Downloads: 5533</p>
               </div>
               <div class="info-tab-soft-links">
-                <a href="">Download build (1.36 GB)</a>
-                <a href="">How to update</a>
+                <a class="info-tab-soft-download" href="">Download build (1.36 GB)</a>
+                <a class="info-tab-soft-help" href="">How to update</a>
               </div>
               <div class="info-tab-soft-chars">
                 <p>
@@ -147,6 +182,58 @@
   $text-font: "TT Commons", sans-serif;
   $sequel-font: "Sequel100Black-86", sans-serif;
   $red-color: #e81d2c;
+
+  .product-info-gallery {
+    &-main {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        max-height: 90%;
+        max-width: 90%;
+      }
+
+      &-item {
+        width: 100%;
+      }
+    }
+
+    &-choice {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-top: 10px;
+
+      &-item {
+        border-radius: 6px;
+        max-width: 82px;
+        height: 82px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        opacity: 0.65;
+
+        img {
+          height: 100%;
+          padding: 10px;
+        }
+
+        &.chosen {
+          border: 1px solid #6a6a6a;
+          opacity: 1;
+        }
+      }
+    }
+  }
 
   .info {
     &-sect {
@@ -252,8 +339,8 @@
           }
           p {
             margin: 0;
-          font-size: 16px;
-          font-family: $heading-font;
+            font-size: 16px;
+            font-family: $heading-font;
           }
         }
         &-date {
@@ -266,9 +353,57 @@
             margin: 0;
           }
           a {
-            color: #107CF8;
+            color: #107cf8;
             text-decoration: none;
             font-size: 14px;
+          }
+        }
+        &-links {
+          margin: 30px 0;
+          display: flex;
+          gap: 10px;
+        }
+        &-download,
+        &-help {
+          font-size: 14px;
+          font-weight: 300;
+          font-family: $heading-font;
+          transition: 0.3s;
+          border-radius: 10px;
+          text-decoration: none;
+          padding: 10px 20px;
+          flex-grow: 1;
+        }
+        &-download {
+          color: white;
+          background-color: #ce1212;
+          text-align: center;
+
+          &:hover {
+            background-color: darken(#ce1212, 10%);
+          }
+        }
+        &-help {
+          color: #ce1212;
+          border: 1px solid #ce1212;
+          display: flex;
+          align-items: center;
+
+          &:after {
+            content: "";
+            display: inline-block;
+            width: 9px;
+            height: 12px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(/img/product/triangle-right.svg);
+            margin-left: auto;
+          }
+
+          &:hover {
+            color: darken(#ce1212, 10%);
+            border-color: darken(#ce1212, 10%);
           }
         }
         &-info {
@@ -276,16 +411,13 @@
           border-radius: 12px;
           padding: 20px;
         }
-        &-links {
-          margin: 30px 0;
-        }
         &-chars {
           margin: 30px 0;
           p {
             margin: 10px 0;
-           span {
-            color: #CE1212;
-           } 
+            span {
+              color: #ce1212;
+            }
           }
         }
         &-change {

@@ -5,9 +5,8 @@
 
 <style lang="scss">
   .form-search {
-    margin-top: 32px;
     position: relative;
-    max-width: 280px;
+    width: 280px;
     &-input {
       padding: 10px 18px;
       border: 1px solid #dbdbdb;

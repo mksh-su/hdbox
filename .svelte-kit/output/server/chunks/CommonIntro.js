@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape } from "./index2.js";
+import { c as create_ssr_component, e as escape } from "./index.js";
 import "./Footer.js";
 const CommonIntro_svelte_svelte_type_style_lang = "";
 const css = {

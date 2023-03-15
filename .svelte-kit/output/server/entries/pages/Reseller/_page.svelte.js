@@ -1,4 +1,4 @@
-import { c as create_ssr_component, d as each, b as add_attribute, e as escape, v as validate_component } from "../../../chunks/index2.js";
+import { c as create_ssr_component, f as each, d as add_attribute, e as escape, v as validate_component } from "../../../chunks/index.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { C as CommonIntro } from "../../../chunks/CommonIntro.js";
 const Resellers_svelte_svelte_type_style_lang = "";

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index2.js";
+import { c as create_ssr_component, v as validate_component } from "../../../chunks/index.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { B as Breadcrumbs } from "../../../chunks/Breadcrumbs.js";
 const Remote_svelte_svelte_type_style_lang = "";

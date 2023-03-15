@@ -1,6 +1,13 @@
 <script>
   import Logo from "../Assets/Logo.svelte";
   import { onMount } from "svelte";
+
+  let optionsOpen = false;
+
+  function onSelectClick(e) {
+    optionsOpen = !optionsOpen;
+  }
+
   onMount(() => {
     const select = document.querySelectorAll(".select-btn");
     const option = document.querySelectorAll(".select-option");
@@ -46,7 +53,7 @@
       </ul>
     </nav>
     <div class="header-select">
-      <div class="select">
+      <div class="select" on:click={onSelectClick}>
         <div class="select-btn" data-type="English">English</div>
         <div class="select-dropdown">
           <div class="select-option" data-type="English">English</div>
@@ -134,7 +141,6 @@
 
   .select {
     position: relative;
-    padding: 12px 34px 12px 16px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 6px;
     min-width: 108px;
@@ -150,12 +156,13 @@
       font-size: 13px;
       font-family: $heading-font;
       font-weight: 300;
+      padding: 12px 34px 12px 16px;
 
       &:after {
         content: "";
         position: absolute;
         top: 40%;
-        right: -15px;
+        right: 15px;
         width: 6px;
         height: 6px;
         transform: translateY(-50%) rotate(45deg);
@@ -199,7 +206,6 @@
       padding: 10px;
       box-sizing: border-box;
       cursor: pointer;
-      color: white;
       position: relative;
     }
 
@@ -207,7 +213,7 @@
       background: #f8f8f8;
     }
 
-    .select-dropdown.toggle {
+    :global(.select-dropdown.toggle) {
       visibility: visible;
       transform: scale(1, 1);
     }

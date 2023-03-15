@@ -1,20 +1,20 @@
-import { c as create_ssr_component, v as validate_component, d as each, b as add_attribute, e as escape } from "../../../chunks/index2.js";
+import { c as create_ssr_component, v as validate_component, f as each, d as add_attribute, e as escape } from "../../../chunks/index.js";
 import { H as Header, F as Footer } from "../../../chunks/Footer.js";
 import { S as Search } from "../../../chunks/Search.js";
 const HelpIntro_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: '.intro-sect.svelte-182tepz.svelte-182tepz{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-182tepz .content h6.svelte-182tepz{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-182tepz .content p.svelte-182tepz{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-182tepz .content .intro-link.svelte-182tepz{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s}.intro-sect.svelte-182tepz .content .intro-link.svelte-182tepz:hover{color:#e81d2c}.intro-sect.svelte-182tepz .h6.svelte-182tepz{margin-top:0;font-weight:400}.intro-sect.svelte-182tepz .img.svelte-182tepz{margin-left:auto}.intro-sect.svelte-182tepz .img img.svelte-182tepz{min-height:300px;max-width:unset}.intro-sect.svelte-182tepz .text.svelte-182tepz{max-width:340px}',
+  code: '.intro-sect.svelte-g0bpbn.svelte-g0bpbn{margin-bottom:50px;display:flex;align-items:center;border:1px solid rgba(0, 0, 0, 0.1);border-radius:12px;padding:13px 120px 13px 98px}.intro-sect.svelte-g0bpbn .content h6.svelte-g0bpbn{font-size:16px;color:#707070;font-family:"TT Commons", sans-serif;margin-bottom:0}.intro-sect.svelte-g0bpbn .content p.svelte-g0bpbn{font-size:18px;margin:0;padding-top:12px;font-weight:500;font-family:"Rational Display", sans-serif}.intro-sect.svelte-g0bpbn .content .intro-link.svelte-g0bpbn{color:#0066cc;font-size:18px;font-weight:500;font-family:"Rational Display", sans-serif;transition:0.3s;margin-bottom:32px;display:inline-block}.intro-sect.svelte-g0bpbn .content .intro-link.svelte-g0bpbn:hover{color:#e81d2c}.intro-sect.svelte-g0bpbn .h6.svelte-g0bpbn{margin-top:0;font-weight:400}.intro-sect.svelte-g0bpbn .img.svelte-g0bpbn{margin-left:auto}.intro-sect.svelte-g0bpbn .img img.svelte-g0bpbn{min-height:300px;max-width:unset}.intro-sect.svelte-g0bpbn .text.svelte-g0bpbn{max-width:340px}',
   map: null
 };
 const HelpIntro = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-182tepz"}"><div class="${"content"}"><h6 class="${"h6 svelte-182tepz"}">Help Center</h6>
-      <p class="${"text svelte-182tepz"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
+  return `<div class="${"container"}"><section class="${"intro-sect wrapper svelte-g0bpbn"}"><div class="${"content"}"><h6 class="${"h6 svelte-g0bpbn"}">Help Center</h6>
+      <p class="${"text svelte-g0bpbn"}">If you need help with anything HDBOX related, refer to the videos below. Still can’t find what you’re looking
         for?
       </p>
-      <a href="${"/"}" class="${"intro-link svelte-182tepz"}">Contact Us</a>
+      <a href="${"/"}" class="${"intro-link svelte-g0bpbn"}">Contact Us</a>
       ${validate_component(Search, "Search").$$render($$result, {}, {}, {})}</div>
-    <div class="${"img svelte-182tepz"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-182tepz"}"></div></section>
+    <div class="${"img svelte-g0bpbn"}"><img src="${"./img/help/help-intro.svg"}" alt="${""}" class="${"svelte-g0bpbn"}"></div></section>
 </div>`;
 });
 const Help_svelte_svelte_type_style_lang = "";
